@@ -1,13 +1,11 @@
 PPP Loans to Connecticut Businesses
 
-The Paycheck Protection Program (PPP) loans provide small businesses with the resources they need to maintain their payroll, hire back employees who may have been laid off, and cover applicable overhead. This data set includes businesses in Connecticut that received PPP funding, how much funding the employer received & how many jobs the employer claims they saved. The NAICS (National Industry Classification) was provided by the loan recipient.
+"The Paycheck Protection Program (PPP) loans provide small businesses with the resources they need to maintain their payroll, hire back employees who may have been laid off, and cover applicable overhead. This data set includes businesses in Connecticut that received PPP funding, how much funding the employer received & how many jobs the employer claims they saved. The NAICS (National Industry Classification) was provided by the loan recipient.
 
-This dataset includes loans under $150,000 and loans of $150,000 and above made to Connecticut businesses through August 8, 2020
+This dataset includes loans under $150,000 and loans of $150,000 and above made to Connecticut businesses through August 8, 2020"
+(Source: https://catalog.data.gov/dataset/ppp-loans-to-connecticut-businesses)
 
-Source: 
-https://catalog.data.gov/dataset/ppp-loans-to-connecticut-businesses
-
-Potential analyses and insights:
+Analyses and insights:
 
 Loan Distribution by Loan Range:
 
