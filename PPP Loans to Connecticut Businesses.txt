@@ -1,0 +1,51 @@
+PPP Loans to Connecticut Businesses
+
+The Paycheck Protection Program (PPP) loans provide small businesses with the resources they need to maintain their payroll, hire back employees who may have been laid off, and cover applicable overhead. This data set includes businesses in Connecticut that received PPP funding, how much funding the employer received & how many jobs the employer claims they saved. The NAICS (National Industry Classification) was provided by the loan recipient.
+
+This dataset includes loans under $150,000 and loans of $150,000 and above made to Connecticut businesses through August 8, 2020
+
+Source: 
+https://catalog.data.gov/dataset/ppp-loans-to-connecticut-businesses
+
+Potential analyses and insights:
+
+Loan Distribution by Loan Range:
+
+Visualize the distribution of loans based on the provided loan ranges (e.g., a $5-10 million). This can give you an overview of how many loans fall into different ranges.
+
+Total Loan Amount and Jobs Saved:
+
+Calculate the total loan amount disbursed to Connecticut businesses and the total number of jobs claimed to be saved as a result of these loans. This can help you understand the overall impact of the PPP program on employment.
+
+Distribution of Business Types (NAICS Codes):
+
+Analyze the distribution of businesses by their NAICS codes (industry classifications). Identify which industries received the most funding and which ones were most impacted.
+
+Distribution of Loan Amounts by Business Type:
+
+Visualize the distribution of loan amounts for different business types (e.g., Limited Liability Company, Subchapter S Corporation, etc.). This can highlight whether certain business types received larger loans on average.
+
+Gender and Ethnicity Analysis:
+
+Investigate the gender and ethnicity data provided. Analyze whether there are any trends in loan distribution, loan amounts, or jobs saved based on gender and ethnicity.
+
+Lender Analysis:
+
+Explore the lenders involved in providing these PPP loans. Calculate the total loan amount distributed by each lender and their role in supporting businesses during the pandemic.
+
+Geographic Analysis:
+
+Visualize the distribution of loans across different cities and regions in Connecticut. Identify areas with higher loan activity and potential reasons for concentration.
+
+Non-Profit vs. For-Profit Analysis:
+
+Analyze the impact of PPP loans on non-profit vs. for-profit organizations. Compare loan amounts, jobs saved, and other metrics between these two types of businesses.
+
+Time Trends:
+
+Plot the approval dates of loans over time to identify any trends or spikes in loan approvals. This could indicate periods of high demand or changes in the program's administration.
+
+Loan Amount vs. Jobs Saved:
+
+Create a scatter plot to visualize the relationship between loan amounts and the number of jobs saved. This can help you understand if there's a correlation between the loan size and the impact on employment.
+These analyses can provide insights into how the PPP loans were distributed, the industries that benefited the most, the impact on different demographic groups, and more. Remember that these are just starting points, and the specific insights you uncover will depend on the data and the questions you ask. Always ensure that your analysis is accurate, unbiased, and aligned with the goals of your project.
