@@ -1,0 +1,1884 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7cd4154ed0e8ce6489b9252c35369067 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7cd4154ed0e8ce6489b9252c35369067" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7cd4154ed0e8ce6489b9252c35369067 = L.map(
+                "map_7cd4154ed0e8ce6489b9252c35369067",
+                {
+                    center: [41.55081395348836, -72.77965116279073],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_09c43ca8ae8eb25f2a38b3e803bd6cba = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7cd4154ed0e8ce6489b9252c35369067);
+        
+    
+            var marker_cluster_67d7768c6920647397cb2a401fdfe3ee = L.markerClusterGroup(
+                {}
+            );
+            map_7cd4154ed0e8ce6489b9252c35369067.addLayer(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+            var marker_89aef3379a5b4a2f4e687f0ccb8e04c9 = L.marker(
+                [41.34, -73.07],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_bbda1c38aca10b616061e5294cc864ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cd486ca147ed9ca7927df9106d354f1 = $(`<div id="html_5cd486ca147ed9ca7927df9106d354f1" style="width: 100.0%; height: 100.0%;">City: Ansonia<br>Loan Amount: $858,638.0<br>Jobs Reported: 148.0</div>`)[0];
+                popup_bbda1c38aca10b616061e5294cc864ca.setContent(html_5cd486ca147ed9ca7927df9106d354f1);
+            
+        
+
+        marker_89aef3379a5b4a2f4e687f0ccb8e04c9.bindPopup(popup_bbda1c38aca10b616061e5294cc864ca)
+        ;
+
+        
+    
+    
+            var marker_049236a4ac036f60f9aa5b7c72d8d1c6 = L.marker(
+                [41.61, -72.09],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_9c068aedcf5dd74262c4ed84697da3fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1be4bba27b168d34b2c383195049f75 = $(`<div id="html_e1be4bba27b168d34b2c383195049f75" style="width: 100.0%; height: 100.0%;">City: Baltic<br>Loan Amount: $6,478.0<br>Jobs Reported: 2.0</div>`)[0];
+                popup_9c068aedcf5dd74262c4ed84697da3fb.setContent(html_e1be4bba27b168d34b2c383195049f75);
+            
+        
+
+        marker_049236a4ac036f60f9aa5b7c72d8d1c6.bindPopup(popup_9c068aedcf5dd74262c4ed84697da3fb)
+        ;
+
+        
+    
+    
+            var marker_59b10b43d48d8166b76d4eeb34c5415b = L.marker(
+                [41.36999999999999, -73.41],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_377fc05461875e898ad7d311f9c8845a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0cdc7bca52d003c3d23be2435ba1951 = $(`<div id="html_e0cdc7bca52d003c3d23be2435ba1951" style="width: 100.0%; height: 100.0%;">City: Bethel<br>Loan Amount: $2,852,626.0<br>Jobs Reported: 740.0</div>`)[0];
+                popup_377fc05461875e898ad7d311f9c8845a.setContent(html_e0cdc7bca52d003c3d23be2435ba1951);
+            
+        
+
+        marker_59b10b43d48d8166b76d4eeb34c5415b.bindPopup(popup_377fc05461875e898ad7d311f9c8845a)
+        ;
+
+        
+    
+    
+            var marker_61661a1e700e72d5378d6821c90296c3 = L.marker(
+                [41.19, -73.2],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_4c2da41a8b24c096048220f946b9c6a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee74a639d39179ffd68d3c73841da2ee = $(`<div id="html_ee74a639d39179ffd68d3c73841da2ee" style="width: 100.0%; height: 100.0%;">City: Bridgeport<br>Loan Amount: $7,901,998.0<br>Jobs Reported: 1,912.0</div>`)[0];
+                popup_4c2da41a8b24c096048220f946b9c6a1.setContent(html_ee74a639d39179ffd68d3c73841da2ee);
+            
+        
+
+        marker_61661a1e700e72d5378d6821c90296c3.bindPopup(popup_4c2da41a8b24c096048220f946b9c6a1)
+        ;
+
+        
+    
+    
+            var marker_d5169c5af7a7a8d5820607734b4e3eb3 = L.marker(
+                [41.68, -72.94],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_f866fe0a81f4b1b5d0b5cba1289dddf6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edf700b940906d0e0e87783849636162 = $(`<div id="html_edf700b940906d0e0e87783849636162" style="width: 100.0%; height: 100.0%;">City: Bristol<br>Loan Amount: $3,680,341.0<br>Jobs Reported: 646.0</div>`)[0];
+                popup_f866fe0a81f4b1b5d0b5cba1289dddf6.setContent(html_edf700b940906d0e0e87783849636162);
+            
+        
+
+        marker_d5169c5af7a7a8d5820607734b4e3eb3.bindPopup(popup_f866fe0a81f4b1b5d0b5cba1289dddf6)
+        ;
+
+        
+    
+    
+            var marker_229d4f0cc40dbe9d8408422ffb0b7f3e = L.marker(
+                [41.91, -72.54],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_d6d257228ac761cdc10da8fcfe0e9a63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd561dfbc2e818045d2ceea51c4c41b5 = $(`<div id="html_dd561dfbc2e818045d2ceea51c4c41b5" style="width: 100.0%; height: 100.0%;">City: Broad Brook<br>Loan Amount: $126,765.0<br>Jobs Reported: 11.0</div>`)[0];
+                popup_d6d257228ac761cdc10da8fcfe0e9a63.setContent(html_dd561dfbc2e818045d2ceea51c4c41b5);
+            
+        
+
+        marker_229d4f0cc40dbe9d8408422ffb0b7f3e.bindPopup(popup_d6d257228ac761cdc10da8fcfe0e9a63)
+        ;
+
+        
+    
+    
+            var marker_c4e8cc7320c1dca88095b2b1c5e87f0a = L.marker(
+                [41.79, -71.95],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_d5241f5abb8d96a34f32311b5c685a5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_240a2cad931cc350f904ec2a7f2a6916 = $(`<div id="html_240a2cad931cc350f904ec2a7f2a6916" style="width: 100.0%; height: 100.0%;">City: Brooklyn<br>Loan Amount: $161,516.0<br>Jobs Reported: 10.0</div>`)[0];
+                popup_d5241f5abb8d96a34f32311b5c685a5c.setContent(html_240a2cad931cc350f904ec2a7f2a6916);
+            
+        
+
+        marker_c4e8cc7320c1dca88095b2b1c5e87f0a.bindPopup(popup_d5241f5abb8d96a34f32311b5c685a5c)
+        ;
+
+        
+    
+    
+            var marker_79627613d67a2cdf578938e2d3f6b643 = L.marker(
+                [42.03, -73.33],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_08a954cf7dc186d9c59b27045d71c408 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db03dd841d8a19cf72a3753264c0ac83 = $(`<div id="html_db03dd841d8a19cf72a3753264c0ac83" style="width: 100.0%; height: 100.0%;">City: Canaan<br>Loan Amount: $619,344.0<br>Jobs Reported: 62.0</div>`)[0];
+                popup_08a954cf7dc186d9c59b27045d71c408.setContent(html_db03dd841d8a19cf72a3753264c0ac83);
+            
+        
+
+        marker_79627613d67a2cdf578938e2d3f6b643.bindPopup(popup_08a954cf7dc186d9c59b27045d71c408)
+        ;
+
+        
+    
+    
+            var marker_6184365e17318c34dcaeef79b5f278a3 = L.marker(
+                [41.28, -72.53],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_bab1e86aec6a50bef5f528e69974465f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f29b3df027209437add204e28176f40 = $(`<div id="html_1f29b3df027209437add204e28176f40" style="width: 100.0%; height: 100.0%;">City: Clinton<br>Loan Amount: $2,568,135.0<br>Jobs Reported: 207.0</div>`)[0];
+                popup_bab1e86aec6a50bef5f528e69974465f.setContent(html_1f29b3df027209437add204e28176f40);
+            
+        
+
+        marker_6184365e17318c34dcaeef79b5f278a3.bindPopup(popup_bab1e86aec6a50bef5f528e69974465f)
+        ;
+
+        
+    
+    
+            var marker_d6c3f197775ede99efc9c85827525e24 = L.marker(
+                [41.58, -72.33],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_ccf0f037fa4bdb36365d6122f77f54f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd35299e586441ec8096e835a58bfff0 = $(`<div id="html_bd35299e586441ec8096e835a58bfff0" style="width: 100.0%; height: 100.0%;">City: Colchester<br>Loan Amount: $1,920,761.0<br>Jobs Reported: 207.0</div>`)[0];
+                popup_ccf0f037fa4bdb36365d6122f77f54f0.setContent(html_bd35299e586441ec8096e835a58bfff0);
+            
+        
+
+        marker_d6c3f197775ede99efc9c85827525e24.bindPopup(popup_ccf0f037fa4bdb36365d6122f77f54f0)
+        ;
+
+        
+    
+    
+            var marker_70c246ce0433b085a5e50388206a25bf = L.marker(
+                [41.82, -72.92],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_05bd8f07ac6bc6023e83b74123c2f984 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_558af8629aaeb5524ac27b0104cb8952 = $(`<div id="html_558af8629aaeb5524ac27b0104cb8952" style="width: 100.0%; height: 100.0%;">City: Collinsville<br>Loan Amount: $104,721.0<br>Jobs Reported: 8.0</div>`)[0];
+                popup_05bd8f07ac6bc6023e83b74123c2f984.setContent(html_558af8629aaeb5524ac27b0104cb8952);
+            
+        
+
+        marker_70c246ce0433b085a5e50388206a25bf.bindPopup(popup_05bd8f07ac6bc6023e83b74123c2f984)
+        ;
+
+        
+    
+    
+            var marker_718f700706396b14e634b68fbfb840ee = L.marker(
+                [41.05, -73.59],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_069429e1d94f5ebfca57aa7deb378c07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c9524d38c1a0dbd708ae533c2268e23 = $(`<div id="html_1c9524d38c1a0dbd708ae533c2268e23" style="width: 100.0%; height: 100.0%;">City: Cos Cob<br>Loan Amount: $749,827.0<br>Jobs Reported: 100.0</div>`)[0];
+                popup_069429e1d94f5ebfca57aa7deb378c07.setContent(html_1c9524d38c1a0dbd708ae533c2268e23);
+            
+        
+
+        marker_718f700706396b14e634b68fbfb840ee.bindPopup(popup_069429e1d94f5ebfca57aa7deb378c07)
+        ;
+
+        
+    
+    
+            var marker_cc458cac065168399461b47ca4aae8b7 = L.marker(
+                [41.4, -73.47],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_0b6128e373f0a71e3d80da877d8c4e7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5672d28a8783d2e5e665a25eac5246dd = $(`<div id="html_5672d28a8783d2e5e665a25eac5246dd" style="width: 100.0%; height: 100.0%;">City: Danbury<br>Loan Amount: $7,202,887.0<br>Jobs Reported: 1,869.0</div>`)[0];
+                popup_0b6128e373f0a71e3d80da877d8c4e7a.setContent(html_5672d28a8783d2e5e665a25eac5246dd);
+            
+        
+
+        marker_cc458cac065168399461b47ca4aae8b7.bindPopup(popup_0b6128e373f0a71e3d80da877d8c4e7a)
+        ;
+
+        
+    
+    
+            var marker_1b6fb9968b89b8792f21d02307460e91 = L.marker(
+                [41.05, -73.48],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_0e9964f54500e370ebe5ab38bed0ab40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_176470874c58cbcf15be88563761b654 = $(`<div id="html_176470874c58cbcf15be88563761b654" style="width: 100.0%; height: 100.0%;">City: Darien<br>Loan Amount: $3,855,597.0<br>Jobs Reported: 546.0</div>`)[0];
+                popup_0e9964f54500e370ebe5ab38bed0ab40.setContent(html_176470874c58cbcf15be88563761b654);
+            
+        
+
+        marker_1b6fb9968b89b8792f21d02307460e91.bindPopup(popup_0e9964f54500e370ebe5ab38bed0ab40)
+        ;
+
+        
+    
+    
+            var marker_11f258d49b2d6d591d21d1b5ed0f0644 = L.marker(
+                [41.33, -73.08000000000001],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_271fc98038d3ff87a130a6ab06b8ff8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_673f1d18b2ca5cc21c5707b7f59469c6 = $(`<div id="html_673f1d18b2ca5cc21c5707b7f59469c6" style="width: 100.0%; height: 100.0%;">City: Derby<br>Loan Amount: $665,731.0<br>Jobs Reported: 183.0</div>`)[0];
+                popup_271fc98038d3ff87a130a6ab06b8ff8b.setContent(html_673f1d18b2ca5cc21c5707b7f59469c6);
+            
+        
+
+        marker_11f258d49b2d6d591d21d1b5ed0f0644.bindPopup(popup_271fc98038d3ff87a130a6ab06b8ff8b)
+        ;
+
+        
+    
+    
+            var marker_85d162f325190abdb263b01b368d521b = L.marker(
+                [41.47, -72.68],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_b0b961e244deb9c02998fff00ad245b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6873d0d5ffb7c43dc35eca6c84c6b570 = $(`<div id="html_6873d0d5ffb7c43dc35eca6c84c6b570" style="width: 100.0%; height: 100.0%;">City: Durham<br>Loan Amount: $1,717,763.0<br>Jobs Reported: 258.0</div>`)[0];
+                popup_b0b961e244deb9c02998fff00ad245b0.setContent(html_6873d0d5ffb7c43dc35eca6c84c6b570);
+            
+        
+
+        marker_85d162f325190abdb263b01b368d521b.bindPopup(popup_b0b961e244deb9c02998fff00ad245b0)
+        ;
+
+        
+    
+    
+            var marker_3777cfd4a8e1541d652ba0c571afb088 = L.marker(
+                [41.57, -72.49],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_9ba34e1958654d86158fe499b50e45d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_247db4937f780a02de33d059e2922b32 = $(`<div id="html_247db4937f780a02de33d059e2922b32" style="width: 100.0%; height: 100.0%;">City: East Hampton<br>Loan Amount: $1,344,490.0<br>Jobs Reported: 119.0</div>`)[0];
+                popup_9ba34e1958654d86158fe499b50e45d2.setContent(html_247db4937f780a02de33d059e2922b32);
+            
+        
+
+        marker_3777cfd4a8e1541d652ba0c571afb088.bindPopup(popup_9ba34e1958654d86158fe499b50e45d2)
+        ;
+
+        
+    
+    
+            var marker_d7cedcad63aa1fe206d401e1194a2845 = L.marker(
+                [41.76, -72.62],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_78c7513e4e295f0068c477ae6b7a85ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ddc4612c51adfeb6c0989959073e7f7 = $(`<div id="html_9ddc4612c51adfeb6c0989959073e7f7" style="width: 100.0%; height: 100.0%;">City: East Hartford<br>Loan Amount: $2,751,476.0<br>Jobs Reported: 1,015.0</div>`)[0];
+                popup_78c7513e4e295f0068c477ae6b7a85ac.setContent(html_9ddc4612c51adfeb6c0989959073e7f7);
+            
+        
+
+        marker_d7cedcad63aa1fe206d401e1194a2845.bindPopup(popup_78c7513e4e295f0068c477ae6b7a85ac)
+        ;
+
+        
+    
+    
+            var marker_18103733b7f7bd608cb606a459fcdaf6 = L.marker(
+                [41.3, -72.86],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_f2a4e969a190349ec275a581ac7eb678 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aea44010e8c1afe3997753b7aaa9e6f1 = $(`<div id="html_aea44010e8c1afe3997753b7aaa9e6f1" style="width: 100.0%; height: 100.0%;">City: East Haven<br>Loan Amount: $3,319,399.0<br>Jobs Reported: 227.0</div>`)[0];
+                popup_f2a4e969a190349ec275a581ac7eb678.setContent(html_aea44010e8c1afe3997753b7aaa9e6f1);
+            
+        
+
+        marker_18103733b7f7bd608cb606a459fcdaf6.bindPopup(popup_f2a4e969a190349ec275a581ac7eb678)
+        ;
+
+        
+    
+    
+            var marker_acb9cdfcc5559f6a4857a2154dfd658b = L.marker(
+                [41.96, -73.36],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_1d81dfa52f36cfe46330e0e34d024085 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b5a96fbf6d168126bf4c8ae60bc2e95 = $(`<div id="html_6b5a96fbf6d168126bf4c8ae60bc2e95" style="width: 100.0%; height: 100.0%;">City: Falls Village<br>Loan Amount: $166,459.0<br>Jobs Reported: 67.0</div>`)[0];
+                popup_1d81dfa52f36cfe46330e0e34d024085.setContent(html_6b5a96fbf6d168126bf4c8ae60bc2e95);
+            
+        
+
+        marker_acb9cdfcc5559f6a4857a2154dfd658b.bindPopup(popup_1d81dfa52f36cfe46330e0e34d024085)
+        ;
+
+        
+    
+    
+            var marker_256f4aac053c62d0425f74ca68387310 = L.marker(
+                [41.42, -72.09],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_8923f3e6f983cf8f0857e5036d6723eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_621ba77b4b9f08bb372407925559b548 = $(`<div id="html_621ba77b4b9f08bb372407925559b548" style="width: 100.0%; height: 100.0%;">City: Gales Ferry<br>Loan Amount: $520,697.0<br>Jobs Reported: 35.0</div>`)[0];
+                popup_8923f3e6f983cf8f0857e5036d6723eb.setContent(html_621ba77b4b9f08bb372407925559b548);
+            
+        
+
+        marker_256f4aac053c62d0425f74ca68387310.bindPopup(popup_8923f3e6f983cf8f0857e5036d6723eb)
+        ;
+
+        
+    
+    
+            var marker_2bc64f6ea5977128695b563b6d8796c3 = L.marker(
+                [41.25, -73.42999999999999],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_bbaf6afcc2ec09058ddd8a3309d36692 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67c72b5c81a2d38b29fca9ff1327574e = $(`<div id="html_67c72b5c81a2d38b29fca9ff1327574e" style="width: 100.0%; height: 100.0%;">City: Georgetown<br>Loan Amount: $141,888.0<br>Jobs Reported: 28.0</div>`)[0];
+                popup_bbaf6afcc2ec09058ddd8a3309d36692.setContent(html_67c72b5c81a2d38b29fca9ff1327574e);
+            
+        
+
+        marker_2bc64f6ea5977128695b563b6d8796c3.bindPopup(popup_bbaf6afcc2ec09058ddd8a3309d36692)
+        ;
+
+        
+    
+    
+            var marker_27fdbfcd02fb334443d71168e619dcb6 = L.marker(
+                [41.02, -73.63],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_2db58ef58e87cf792f99765bf40aac37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfca3ed3412687bfeee21a32dca28165 = $(`<div id="html_cfca3ed3412687bfeee21a32dca28165" style="width: 100.0%; height: 100.0%;">City: Greenwich<br>Loan Amount: $10,338,933.0<br>Jobs Reported: 2,585.0</div>`)[0];
+                popup_2db58ef58e87cf792f99765bf40aac37.setContent(html_cfca3ed3412687bfeee21a32dca28165);
+            
+        
+
+        marker_27fdbfcd02fb334443d71168e619dcb6.bindPopup(popup_2db58ef58e87cf792f99765bf40aac37)
+        ;
+
+        
+    
+    
+            var marker_55d6645ee531e37f5d52fd438dba3ff7 = L.marker(
+                [41.33, -72.07],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_065cd8f87df28c0f6d4367a3e845edcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bcc428775dadd82edf8fd7496fedb5d = $(`<div id="html_8bcc428775dadd82edf8fd7496fedb5d" style="width: 100.0%; height: 100.0%;">City: Groton<br>Loan Amount: $1,969,981.0<br>Jobs Reported: 461.0</div>`)[0];
+                popup_065cd8f87df28c0f6d4367a3e845edcf.setContent(html_8bcc428775dadd82edf8fd7496fedb5d);
+            
+        
+
+        marker_55d6645ee531e37f5d52fd438dba3ff7.bindPopup(popup_065cd8f87df28c0f6d4367a3e845edcf)
+        ;
+
+        
+    
+    
+            var marker_21a7bfa867e4654245389beba662ba3e = L.marker(
+                [41.77, -72.68],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_d5bb1061826c2823aa4080020693d9be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e0321154ae40472bb859a43ff0251c2 = $(`<div id="html_3e0321154ae40472bb859a43ff0251c2" style="width: 100.0%; height: 100.0%;">City: Hartford<br>Loan Amount: $9,675,193.0<br>Jobs Reported: 4,000.0</div>`)[0];
+                popup_d5bb1061826c2823aa4080020693d9be.setContent(html_3e0321154ae40472bb859a43ff0251c2);
+            
+        
+
+        marker_21a7bfa867e4654245389beba662ba3e.bindPopup(popup_d5bb1061826c2823aa4080020693d9be)
+        ;
+
+        
+    
+    
+            var marker_4e510f8e6b9aed81a299e9147f7b6928 = L.marker(
+                [41.49, -72.56],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_084285905296bff8072ba0fea89cd2cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5aae9f960258c59d49592b9c1b3f232e = $(`<div id="html_5aae9f960258c59d49592b9c1b3f232e" style="width: 100.0%; height: 100.0%;">City: Higganum<br>Loan Amount: $955,237.0<br>Jobs Reported: 132.0</div>`)[0];
+                popup_084285905296bff8072ba0fea89cd2cd.setContent(html_5aae9f960258c59d49592b9c1b3f232e);
+            
+        
+
+        marker_4e510f8e6b9aed81a299e9147f7b6928.bindPopup(popup_084285905296bff8072ba0fea89cd2cd)
+        ;
+
+        
+    
+    
+            var marker_761c10890a7bb31e8fe779cb4afa2ee2 = L.marker(
+                [41.63, -72.77],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_8ebebd0641d4b56295ba351c596e00df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb223478b85838acbf8ac8f922685832 = $(`<div id="html_bb223478b85838acbf8ac8f922685832" style="width: 100.0%; height: 100.0%;">City: Kensington<br>Loan Amount: $456,902.0<br>Jobs Reported: 61.0</div>`)[0];
+                popup_8ebebd0641d4b56295ba351c596e00df.setContent(html_bb223478b85838acbf8ac8f922685832);
+            
+        
+
+        marker_761c10890a7bb31e8fe779cb4afa2ee2.bindPopup(popup_8ebebd0641d4b56295ba351c596e00df)
+        ;
+
+        
+    
+    
+            var marker_da021de758c8265a6dff66e8d1bc3576 = L.marker(
+                [41.96, -73.45],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_aa18f0712363f2d8397e37317edd6796 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_245fc32d20cea6a766a5520584d44690 = $(`<div id="html_245fc32d20cea6a766a5520584d44690" style="width: 100.0%; height: 100.0%;">City: Lakeville<br>Loan Amount: $454,562.0<br>Jobs Reported: 61.0</div>`)[0];
+                popup_aa18f0712363f2d8397e37317edd6796.setContent(html_245fc32d20cea6a766a5520584d44690);
+            
+        
+
+        marker_da021de758c8265a6dff66e8d1bc3576.bindPopup(popup_aa18f0712363f2d8397e37317edd6796)
+        ;
+
+        
+    
+    
+            var marker_d5d752eefcbbc4c4a325b924635e774f = L.marker(
+                [41.78, -72.52],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_ffb8fd46e74a73e9ab6026a07ef57754 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b477b4f445ecc445f9ff200d6e0ae855 = $(`<div id="html_b477b4f445ecc445f9ff200d6e0ae855" style="width: 100.0%; height: 100.0%;">City: Manchester<br>Loan Amount: $3,832,935.0<br>Jobs Reported: 1,155.0</div>`)[0];
+                popup_ffb8fd46e74a73e9ab6026a07ef57754.setContent(html_b477b4f445ecc445f9ff200d6e0ae855);
+            
+        
+
+        marker_d5d752eefcbbc4c4a325b924635e774f.bindPopup(popup_ffb8fd46e74a73e9ab6026a07ef57754)
+        ;
+
+        
+    
+    
+            var marker_f388a758da17d2c4fe4b2d565ee129d8 = L.marker(
+                [41.76, -72.19],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_78a344e59d03a3382873f5884de4888c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66f57c5cf60280b75265f69c99aeaf35 = $(`<div id="html_66f57c5cf60280b75265f69c99aeaf35" style="width: 100.0%; height: 100.0%;">City: Mansfield Center<br>Loan Amount: $133,511.0<br>Jobs Reported: 17.0</div>`)[0];
+                popup_78a344e59d03a3382873f5884de4888c.setContent(html_66f57c5cf60280b75265f69c99aeaf35);
+            
+        
+
+        marker_f388a758da17d2c4fe4b2d565ee129d8.bindPopup(popup_78a344e59d03a3382873f5884de4888c)
+        ;
+
+        
+    
+    
+            var marker_930b233bd651e31c08166f5674213376 = L.marker(
+                [41.46, -71.97],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_8c555fdb42179be6da13e60ae9dd0e2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_789b75321365c5b6e93a4ac855bbe51e = $(`<div id="html_789b75321365c5b6e93a4ac855bbe51e" style="width: 100.0%; height: 100.0%;">City: Mashantucket<br>Loan Amount: $75,900.0<br>Jobs Reported: 1.0</div>`)[0];
+                popup_8c555fdb42179be6da13e60ae9dd0e2b.setContent(html_789b75321365c5b6e93a4ac855bbe51e);
+            
+        
+
+        marker_930b233bd651e31c08166f5674213376.bindPopup(popup_8c555fdb42179be6da13e60ae9dd0e2b)
+        ;
+
+        
+    
+    
+            var marker_296a45daf08707615c68829f4243577a = L.marker(
+                [41.54, -72.79],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_f3c8848913cd0efd0750d548d84a0925 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e088c37fa0a327dee98530dec56650d6 = $(`<div id="html_e088c37fa0a327dee98530dec56650d6" style="width: 100.0%; height: 100.0%;">City: Meriden<br>Loan Amount: $4,041,538.0<br>Jobs Reported: 1,036.0</div>`)[0];
+                popup_f3c8848913cd0efd0750d548d84a0925.setContent(html_e088c37fa0a327dee98530dec56650d6);
+            
+        
+
+        marker_296a45daf08707615c68829f4243577a.bindPopup(popup_f3c8848913cd0efd0750d548d84a0925)
+        ;
+
+        
+    
+    
+            var marker_f36df45af4210cf5690fb098700f80bc = L.marker(
+                [41.55, -72.65],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_200d20effba80d6544a9790c40463b30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9a0f9f38cb70d77e16f5cee9d80bc47 = $(`<div id="html_a9a0f9f38cb70d77e16f5cee9d80bc47" style="width: 100.0%; height: 100.0%;">City: Middletown<br>Loan Amount: $8,503,290.0<br>Jobs Reported: 2,225.0</div>`)[0];
+                popup_200d20effba80d6544a9790c40463b30.setContent(html_a9a0f9f38cb70d77e16f5cee9d80bc47);
+            
+        
+
+        marker_f36df45af4210cf5690fb098700f80bc.bindPopup(popup_200d20effba80d6544a9790c40463b30)
+        ;
+
+        
+    
+    
+            var marker_bbdae8e5150c35366600d167a986935f = L.marker(
+                [41.5, -72.45],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_54a16157202d5aba89de03c63a4fb4fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdea129cbb51254f0e359fefb8d8fed6 = $(`<div id="html_cdea129cbb51254f0e359fefb8d8fed6" style="width: 100.0%; height: 100.0%;">City: Moodus<br>Loan Amount: $775,250.0<br>Jobs Reported: 109.0</div>`)[0];
+                popup_54a16157202d5aba89de03c63a4fb4fe.setContent(html_cdea129cbb51254f0e359fefb8d8fed6);
+            
+        
+
+        marker_bbdae8e5150c35366600d167a986935f.bindPopup(popup_54a16157202d5aba89de03c63a4fb4fe)
+        ;
+
+        
+    
+    
+            var marker_5d73509402b947153cdd8e0c2d7ac59a = L.marker(
+                [41.72, -71.88],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_719447358877d1aedab27591519778fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6653df8f00f0194f60ed4b43914c682d = $(`<div id="html_6653df8f00f0194f60ed4b43914c682d" style="width: 100.0%; height: 100.0%;">City: Moosup<br>Loan Amount: $65,646.0<br>Jobs Reported: 2.0</div>`)[0];
+                popup_719447358877d1aedab27591519778fb.setContent(html_6653df8f00f0194f60ed4b43914c682d);
+            
+        
+
+        marker_5d73509402b947153cdd8e0c2d7ac59a.bindPopup(popup_719447358877d1aedab27591519778fb)
+        ;
+
+        
+    
+    
+            var marker_cbb11ffee921c3cd67307714569e6fe2 = L.marker(
+                [41.36, -71.95],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_e8d36d0e84481b62cbeb05d0f3f92d14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50b839596eda9cc2a53878523389138a = $(`<div id="html_50b839596eda9cc2a53878523389138a" style="width: 100.0%; height: 100.0%;">City: Mystic<br>Loan Amount: $2,361,094.0<br>Jobs Reported: 299.0</div>`)[0];
+                popup_e8d36d0e84481b62cbeb05d0f3f92d14.setContent(html_50b839596eda9cc2a53878523389138a);
+            
+        
+
+        marker_cbb11ffee921c3cd67307714569e6fe2.bindPopup(popup_e8d36d0e84481b62cbeb05d0f3f92d14)
+        ;
+
+        
+    
+    
+            var marker_3d1e42613fe3f7776c149836ed2c48a5 = L.marker(
+                [41.68, -72.79],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_4b5071a0fe0d010a992e3f96ffa80e1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cf57cc3254b20743179f1b7f9c756b9 = $(`<div id="html_4cf57cc3254b20743179f1b7f9c756b9" style="width: 100.0%; height: 100.0%;">City: New Britain<br>Loan Amount: $2,673,946.0<br>Jobs Reported: 688.0</div>`)[0];
+                popup_4b5071a0fe0d010a992e3f96ffa80e1f.setContent(html_4cf57cc3254b20743179f1b7f9c756b9);
+            
+        
+
+        marker_3d1e42613fe3f7776c149836ed2c48a5.bindPopup(popup_4b5071a0fe0d010a992e3f96ffa80e1f)
+        ;
+
+        
+    
+    
+            var marker_a1bb6af9aea910c9bf637a65e0396bbb = L.marker(
+                [41.31, -72.92],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_8a0f57949bbaf35ce0bdd6f4e38e90f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9c107c822adc9a9c7ca160db8157bf1 = $(`<div id="html_a9c107c822adc9a9c7ca160db8157bf1" style="width: 100.0%; height: 100.0%;">City: New Haven<br>Loan Amount: $12,098,178.0<br>Jobs Reported: 3,248.0</div>`)[0];
+                popup_8a0f57949bbaf35ce0bdd6f4e38e90f1.setContent(html_a9c107c822adc9a9c7ca160db8157bf1);
+            
+        
+
+        marker_a1bb6af9aea910c9bf637a65e0396bbb.bindPopup(popup_8a0f57949bbaf35ce0bdd6f4e38e90f1)
+        ;
+
+        
+    
+    
+            var marker_5ed1091005bf2855676773dea9a1bf1b = L.marker(
+                [41.33, -72.1],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_f1466adadd38e87e52253ca2d2a5aac3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7e1c0f2be6d679c3b536eb3ada62d14 = $(`<div id="html_d7e1c0f2be6d679c3b536eb3ada62d14" style="width: 100.0%; height: 100.0%;">City: New London<br>Loan Amount: $3,555,673.0<br>Jobs Reported: 630.0</div>`)[0];
+                popup_f1466adadd38e87e52253ca2d2a5aac3.setContent(html_d7e1c0f2be6d679c3b536eb3ada62d14);
+            
+        
+
+        marker_5ed1091005bf2855676773dea9a1bf1b.bindPopup(popup_f1466adadd38e87e52253ca2d2a5aac3)
+        ;
+
+        
+    
+    
+            var marker_128b25397807dcbb37922ea9f3dc0e45 = L.marker(
+                [41.58, -73.41],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_48452f0d65c1adb584c9b88538a5767d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0799b21b976aec9e3a4438307b5f65cb = $(`<div id="html_0799b21b976aec9e3a4438307b5f65cb" style="width: 100.0%; height: 100.0%;">City: New Milford<br>Loan Amount: $2,784,107.0<br>Jobs Reported: 588.0</div>`)[0];
+                popup_48452f0d65c1adb584c9b88538a5767d.setContent(html_0799b21b976aec9e3a4438307b5f65cb);
+            
+        
+
+        marker_128b25397807dcbb37922ea9f3dc0e45.bindPopup(popup_48452f0d65c1adb584c9b88538a5767d)
+        ;
+
+        
+    
+    
+            var marker_354ceabab9047e75aaa1f2107630adcc = L.marker(
+                [41.68, -73.35],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_b66328a46d384a9aa99850bd9af070fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee41269ff103739ef4f63ba8598e3011 = $(`<div id="html_ee41269ff103739ef4f63ba8598e3011" style="width: 100.0%; height: 100.0%;">City: New Preston<br>Loan Amount: $146,169.0<br>Jobs Reported: 16.0</div>`)[0];
+                popup_b66328a46d384a9aa99850bd9af070fe.setContent(html_ee41269ff103739ef4f63ba8598e3011);
+            
+        
+
+        marker_354ceabab9047e75aaa1f2107630adcc.bindPopup(popup_b66328a46d384a9aa99850bd9af070fe)
+        ;
+
+        
+    
+    
+            var marker_5c99a6aaf9ff394904c9954177e39230 = L.marker(
+                [41.69, -72.73],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_f0744b3a6500171e5e8b187ccaf60b4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_277d93620f5397c82ef6f80631eca94c = $(`<div id="html_277d93620f5397c82ef6f80631eca94c" style="width: 100.0%; height: 100.0%;">City: Newington<br>Loan Amount: $3,319,407.0<br>Jobs Reported: 1,233.0</div>`)[0];
+                popup_f0744b3a6500171e5e8b187ccaf60b4c.setContent(html_277d93620f5397c82ef6f80631eca94c);
+            
+        
+
+        marker_5c99a6aaf9ff394904c9954177e39230.bindPopup(popup_f0744b3a6500171e5e8b187ccaf60b4c)
+        ;
+
+        
+    
+    
+            var marker_2c537a71c017699842d068eb9d242549 = L.marker(
+                [41.32, -72.19],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_d6a1387996579647427e3d8ab2523370 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e33051e1f039fa402c9db0e23908a045 = $(`<div id="html_e33051e1f039fa402c9db0e23908a045" style="width: 100.0%; height: 100.0%;">City: Niantic<br>Loan Amount: $1,718,699.0<br>Jobs Reported: 113.0</div>`)[0];
+                popup_d6a1387996579647427e3d8ab2523370.setContent(html_e33051e1f039fa402c9db0e23908a045);
+            
+        
+
+        marker_2c537a71c017699842d068eb9d242549.bindPopup(popup_d6a1387996579647427e3d8ab2523370)
+        ;
+
+        
+    
+    
+            var marker_5fdfb302ef89db287d2cebb8db5b9ebe = L.marker(
+                [41.33, -72.0],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_da2959e79ec6d42b86407e8dedbbff09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_199b1a4ba46cb044b991761f06a4c13d = $(`<div id="html_199b1a4ba46cb044b991761f06a4c13d" style="width: 100.0%; height: 100.0%;">City: Noank<br>Loan Amount: $111,494.0<br>Jobs Reported: 16.0</div>`)[0];
+                popup_da2959e79ec6d42b86407e8dedbbff09.setContent(html_199b1a4ba46cb044b991761f06a4c13d);
+            
+        
+
+        marker_5fdfb302ef89db287d2cebb8db5b9ebe.bindPopup(popup_da2959e79ec6d42b86407e8dedbbff09)
+        ;
+
+        
+    
+    
+            var marker_f17d45082df97672d467bcd304735c79 = L.marker(
+                [41.99, -73.2],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_8b737590714a6aa1eba776ea02844834 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba4dcd7c36d15686e61f62f43400f3e6 = $(`<div id="html_ba4dcd7c36d15686e61f62f43400f3e6" style="width: 100.0%; height: 100.0%;">City: Norfolk<br>Loan Amount: $143,269.0<br>Jobs Reported: 16.0</div>`)[0];
+                popup_8b737590714a6aa1eba776ea02844834.setContent(html_ba4dcd7c36d15686e61f62f43400f3e6);
+            
+        
+
+        marker_f17d45082df97672d467bcd304735c79.bindPopup(popup_8b737590714a6aa1eba776ea02844834)
+        ;
+
+        
+    
+    
+            var marker_809c495ee22d53f3e62cb4b6bfd97bee = L.marker(
+                [42.02, -72.84],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_3b3d695079c303b001d8d94366c8d41e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cca616343be5dc5dd04638cbead4657e = $(`<div id="html_cca616343be5dc5dd04638cbead4657e" style="width: 100.0%; height: 100.0%;">City: North Granby<br>Loan Amount: $113,684.0<br>Jobs Reported: 12.0</div>`)[0];
+                popup_3b3d695079c303b001d8d94366c8d41e.setContent(html_cca616343be5dc5dd04638cbead4657e);
+            
+        
+
+        marker_809c495ee22d53f3e62cb4b6bfd97bee.bindPopup(popup_3b3d695079c303b001d8d94366c8d41e)
+        ;
+
+        
+    
+    
+            var marker_0dc476e6f09c39ba46f6dfa79158b248 = L.marker(
+                [41.38, -72.86],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_793617e1a3eff8c594287a9b68374b09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e10f0805f311f3d853d38914b3c20f9d = $(`<div id="html_e10f0805f311f3d853d38914b3c20f9d" style="width: 100.0%; height: 100.0%;">City: North Haven<br>Loan Amount: $5,438,304.0<br>Jobs Reported: 890.0</div>`)[0];
+                popup_793617e1a3eff8c594287a9b68374b09.setContent(html_e10f0805f311f3d853d38914b3c20f9d);
+            
+        
+
+        marker_0dc476e6f09c39ba46f6dfa79158b248.bindPopup(popup_793617e1a3eff8c594287a9b68374b09)
+        ;
+
+        
+    
+    
+            var marker_ad972220e13db7f9c1d33f7a961c8977 = L.marker(
+                [41.09, -73.42],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_755ce14760d2186082051faa4fb6d60d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_375afae6483cdeaf3196a507d243de5d = $(`<div id="html_375afae6483cdeaf3196a507d243de5d" style="width: 100.0%; height: 100.0%;">City: Norwalk<br>Loan Amount: $12,729,753.0<br>Jobs Reported: 3,094.0</div>`)[0];
+                popup_755ce14760d2186082051faa4fb6d60d.setContent(html_375afae6483cdeaf3196a507d243de5d);
+            
+        
+
+        marker_ad972220e13db7f9c1d33f7a961c8977.bindPopup(popup_755ce14760d2186082051faa4fb6d60d)
+        ;
+
+        
+    
+    
+            var marker_d14ab44105c85275510eb8f531366e89 = L.marker(
+                [41.55, -72.09],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_105bd19bd47de434c1b05cb22d05ea48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad6c278fbc5a8459fdb7dbad053c3289 = $(`<div id="html_ad6c278fbc5a8459fdb7dbad053c3289" style="width: 100.0%; height: 100.0%;">City: Norwich<br>Loan Amount: $1,096,209.0<br>Jobs Reported: 188.0</div>`)[0];
+                popup_105bd19bd47de434c1b05cb22d05ea48.setContent(html_ad6c278fbc5a8459fdb7dbad053c3289);
+            
+        
+
+        marker_d14ab44105c85275510eb8f531366e89.bindPopup(popup_105bd19bd47de434c1b05cb22d05ea48)
+        ;
+
+        
+    
+    
+            var marker_0e6040a73bbf04ba63daa63735df4038 = L.marker(
+                [41.59, -73.09],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_1b67ec19180e00cb9048cdf59f4b3c74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_691f6b2c6650aae44d57169fcc165208 = $(`<div id="html_691f6b2c6650aae44d57169fcc165208" style="width: 100.0%; height: 100.0%;">City: Oakville<br>Loan Amount: $468,089.0<br>Jobs Reported: 63.0</div>`)[0];
+                popup_1b67ec19180e00cb9048cdf59f4b3c74.setContent(html_691f6b2c6650aae44d57169fcc165208);
+            
+        
+
+        marker_0e6040a73bbf04ba63daa63735df4038.bindPopup(popup_1b67ec19180e00cb9048cdf59f4b3c74)
+        ;
+
+        
+    
+    
+            var marker_6d317bc942923759aa8e016d61084fb9 = L.marker(
+                [41.02, -73.57],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_4a7bb0d3ada8940cc46523c2d8062f71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f0733be2362e2ab754816d1f7f6665d = $(`<div id="html_7f0733be2362e2ab754816d1f7f6665d" style="width: 100.0%; height: 100.0%;">City: Old Greenwich<br>Loan Amount: $1,515,971.0<br>Jobs Reported: 319.0</div>`)[0];
+                popup_4a7bb0d3ada8940cc46523c2d8062f71.setContent(html_7f0733be2362e2ab754816d1f7f6665d);
+            
+        
+
+        marker_6d317bc942923759aa8e016d61084fb9.bindPopup(popup_4a7bb0d3ada8940cc46523c2d8062f71)
+        ;
+
+        
+    
+    
+            var marker_443eb329f701c82a205118f7df02c669 = L.marker(
+                [41.39, -71.98],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_01b04f27ca0e76417ed90413bf675e07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc0340c7ecd038c50011a4aceceaa654 = $(`<div id="html_dc0340c7ecd038c50011a4aceceaa654" style="width: 100.0%; height: 100.0%;">City: Old Mystic<br>Loan Amount: $23,100.0<br>Jobs Reported: 0.0</div>`)[0];
+                popup_01b04f27ca0e76417ed90413bf675e07.setContent(html_dc0340c7ecd038c50011a4aceceaa654);
+            
+        
+
+        marker_443eb329f701c82a205118f7df02c669.bindPopup(popup_01b04f27ca0e76417ed90413bf675e07)
+        ;
+
+        
+    
+    
+            var marker_567c224c91b98728247270868a1ff38f = L.marker(
+                [41.28, -73.03],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_4c6aa6ee76c6f99f7f2577ce36dc5137 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa51965d2f599ef7cf0ef19286e38226 = $(`<div id="html_aa51965d2f599ef7cf0ef19286e38226" style="width: 100.0%; height: 100.0%;">City: Orange<br>Loan Amount: $2,025,217.0<br>Jobs Reported: 883.0</div>`)[0];
+                popup_4c6aa6ee76c6f99f7f2577ce36dc5137.setContent(html_aa51965d2f599ef7cf0ef19286e38226);
+            
+        
+
+        marker_567c224c91b98728247270868a1ff38f.bindPopup(popup_4c6aa6ee76c6f99f7f2577ce36dc5137)
+        ;
+
+        
+    
+    
+            var marker_8f8e0f5c510058b8508f47cca8eb27fb = L.marker(
+                [41.38, -71.85],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_475b8a5372b37337ee05eca271367624 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f792fa7860dfdca18a960ae4ff786000 = $(`<div id="html_f792fa7860dfdca18a960ae4ff786000" style="width: 100.0%; height: 100.0%;">City: Pawcatuck<br>Loan Amount: $639,859.0<br>Jobs Reported: 35.0</div>`)[0];
+                popup_475b8a5372b37337ee05eca271367624.setContent(html_f792fa7860dfdca18a960ae4ff786000);
+            
+        
+
+        marker_8f8e0f5c510058b8508f47cca8eb27fb.bindPopup(popup_475b8a5372b37337ee05eca271367624)
+        ;
+
+        
+    
+    
+            var marker_17441fc6007225ddb6542e3e74f62f0f = L.marker(
+                [41.58, -72.62],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_e9be9cee7c78f4b67bf6af1570050634 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97b96047538d2caa7f9e6ebf0206daf1 = $(`<div id="html_97b96047538d2caa7f9e6ebf0206daf1" style="width: 100.0%; height: 100.0%;">City: Portland<br>Loan Amount: $2,042,863.0<br>Jobs Reported: 229.0</div>`)[0];
+                popup_e9be9cee7c78f4b67bf6af1570050634.setContent(html_97b96047538d2caa7f9e6ebf0206daf1);
+            
+        
+
+        marker_17441fc6007225ddb6542e3e74f62f0f.bindPopup(popup_e9be9cee7c78f4b67bf6af1570050634)
+        ;
+
+        
+    
+    
+            var marker_6e6058e3f5585c7d6473791ece973d04 = L.marker(
+                [41.92, -71.91],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_ac7ef8f551f2aed54a6f6b121a9bad45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae29e718a448c9c8f82a339c97fc5442 = $(`<div id="html_ae29e718a448c9c8f82a339c97fc5442" style="width: 100.0%; height: 100.0%;">City: Putnam<br>Loan Amount: $524,350.0<br>Jobs Reported: 45.0</div>`)[0];
+                popup_ac7ef8f551f2aed54a6f6b121a9bad45.setContent(html_ae29e718a448c9c8f82a339c97fc5442);
+            
+        
+
+        marker_6e6058e3f5585c7d6473791ece973d04.bindPopup(popup_ac7ef8f551f2aed54a6f6b121a9bad45)
+        ;
+
+        
+    
+    
+            var marker_03b8fb1f863cafd447030936ab27588c = L.marker(
+                [42.01, -71.94],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_6a0e77c13af26fb6eba6d97246455dd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a02cfdf48f84d97bec43778078450f39 = $(`<div id="html_a02cfdf48f84d97bec43778078450f39" style="width: 100.0%; height: 100.0%;">City: Quinebaug<br>Loan Amount: $10,000.0<br>Jobs Reported: 1.0</div>`)[0];
+                popup_6a0e77c13af26fb6eba6d97246455dd7.setContent(html_a02cfdf48f84d97bec43778078450f39);
+            
+        
+
+        marker_03b8fb1f863cafd447030936ab27588c.bindPopup(popup_6a0e77c13af26fb6eba6d97246455dd7)
+        ;
+
+        
+    
+    
+            var marker_59bc0dc15cce4b84d05f10c4f34b4405 = L.marker(
+                [41.27, -73.5],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_9249919f659df9726edba6ac9d307ade = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_103682ca1a85b99f2fe668c1df22a5d8 = $(`<div id="html_103682ca1a85b99f2fe668c1df22a5d8" style="width: 100.0%; height: 100.0%;">City: Ridgefield<br>Loan Amount: $6,665,742.0<br>Jobs Reported: 843.0</div>`)[0];
+                popup_9249919f659df9726edba6ac9d307ade.setContent(html_103682ca1a85b99f2fe668c1df22a5d8);
+            
+        
+
+        marker_59bc0dc15cce4b84d05f10c4f34b4405.bindPopup(popup_9249919f659df9726edba6ac9d307ade)
+        ;
+
+        
+    
+    
+            var marker_14d65c57ac73068b25dd0b212acb1269 = L.marker(
+                [41.03, -73.58],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_cea45971875c860c08e22b570142f740 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6881ba6b5b3da051274acd3da347ff44 = $(`<div id="html_6881ba6b5b3da051274acd3da347ff44" style="width: 100.0%; height: 100.0%;">City: Riverside<br>Loan Amount: $712,382.0<br>Jobs Reported: 160.0</div>`)[0];
+                popup_cea45971875c860c08e22b570142f740.setContent(html_6881ba6b5b3da051274acd3da347ff44);
+            
+        
+
+        marker_14d65c57ac73068b25dd0b212acb1269.bindPopup(popup_cea45971875c860c08e22b570142f740)
+        ;
+
+        
+    
+    
+            var marker_0c6be74510008d21d0473f9db25d4fa8 = L.marker(
+                [41.87, -72.45],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_873e899d589216a50056569a27f81fe9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e153144a43190d9ea7eb468ce2215904 = $(`<div id="html_e153144a43190d9ea7eb468ce2215904" style="width: 100.0%; height: 100.0%;">City: Rockville<br>Loan Amount: $53,400.0<br>Jobs Reported: 0.0</div>`)[0];
+                popup_873e899d589216a50056569a27f81fe9.setContent(html_e153144a43190d9ea7eb468ce2215904);
+            
+        
+
+        marker_0c6be74510008d21d0473f9db25d4fa8.bindPopup(popup_873e899d589216a50056569a27f81fe9)
+        ;
+
+        
+    
+    
+            var marker_671215e5457657e68e65fd8ada659922 = L.marker(
+                [41.88, -73.47],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_7b6411ecbcf19ddfbc08b9c6fbe2ed30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f20b8993bc447f36506d6aa878880adb = $(`<div id="html_f20b8993bc447f36506d6aa878880adb" style="width: 100.0%; height: 100.0%;">City: Sharon<br>Loan Amount: $151,844.0<br>Jobs Reported: 20.0</div>`)[0];
+                popup_7b6411ecbcf19ddfbc08b9c6fbe2ed30.setContent(html_f20b8993bc447f36506d6aa878880adb);
+            
+        
+
+        marker_671215e5457657e68e65fd8ada659922.bindPopup(popup_7b6411ecbcf19ddfbc08b9c6fbe2ed30)
+        ;
+
+        
+    
+    
+            var marker_682e70db6eb8a0b104210e5f80dd9e4b = L.marker(
+                [41.31, -73.14],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_dc5a919c27e168c9d32a499a06937f76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47291c4fa16f9701c4a9d155602d2881 = $(`<div id="html_47291c4fa16f9701c4a9d155602d2881" style="width: 100.0%; height: 100.0%;">City: Shelton<br>Loan Amount: $3,701,732.0<br>Jobs Reported: 1,916.0</div>`)[0];
+                popup_dc5a919c27e168c9d32a499a06937f76.setContent(html_47291c4fa16f9701c4a9d155602d2881);
+            
+        
+
+        marker_682e70db6eb8a0b104210e5f80dd9e4b.bindPopup(popup_dc5a919c27e168c9d32a499a06937f76)
+        ;
+
+        
+    
+    
+            var marker_7f14c7fc9c010e95fd649cc4dc683c74 = L.marker(
+                [41.99, -72.44],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_a5333d31e8305e5195baecb8ca3d5102 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9ceae8d60b4b5daaacf50e0c3fa7e48 = $(`<div id="html_b9ceae8d60b4b5daaacf50e0c3fa7e48" style="width: 100.0%; height: 100.0%;">City: Somers<br>Loan Amount: $996,984.0<br>Jobs Reported: 191.0</div>`)[0];
+                popup_a5333d31e8305e5195baecb8ca3d5102.setContent(html_b9ceae8d60b4b5daaacf50e0c3fa7e48);
+            
+        
+
+        marker_7f14c7fc9c010e95fd649cc4dc683c74.bindPopup(popup_a5333d31e8305e5195baecb8ca3d5102)
+        ;
+
+        
+    
+    
+            var marker_0090c2c352d170f606c3920a391ef1c1 = L.marker(
+                [41.68, -72.18],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_f071b33c8adccbffb4502787c14c42b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbeeaaef7c82b7f86c1e7c195b63ed26 = $(`<div id="html_dbeeaaef7c82b7f86c1e7c195b63ed26" style="width: 100.0%; height: 100.0%;">City: South Windham<br>Loan Amount: $61,372.0<br>Jobs Reported: 10.0</div>`)[0];
+                popup_f071b33c8adccbffb4502787c14c42b2.setContent(html_dbeeaaef7c82b7f86c1e7c195b63ed26);
+            
+        
+
+        marker_0090c2c352d170f606c3920a391ef1c1.bindPopup(popup_f071b33c8adccbffb4502787c14c42b2)
+        ;
+
+        
+    
+    
+            var marker_8382b1ef4ddb52d9310000d09edd3dcb = L.marker(
+                [41.13, -73.29],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_03052545b711f78006acefb98492c568 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d29641a534f38c60b2c99f96c2814fd = $(`<div id="html_3d29641a534f38c60b2c99f96c2814fd" style="width: 100.0%; height: 100.0%;">City: Southport<br>Loan Amount: $928,020.0<br>Jobs Reported: 146.0</div>`)[0];
+                popup_03052545b711f78006acefb98492c568.setContent(html_3d29641a534f38c60b2c99f96c2814fd);
+            
+        
+
+        marker_8382b1ef4ddb52d9310000d09edd3dcb.bindPopup(popup_03052545b711f78006acefb98492c568)
+        ;
+
+        
+    
+    
+            var marker_f1f1b665b481d2e2febb79e158dedd6b = L.marker(
+                [41.96, -72.31],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_82cffc832ae10749766ae03ca2c4afe8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3d81f567ef0820bd6c25166bd0eb118 = $(`<div id="html_b3d81f567ef0820bd6c25166bd0eb118" style="width: 100.0%; height: 100.0%;">City: Stafford Springs<br>Loan Amount: $670,558.0<br>Jobs Reported: 50.0</div>`)[0];
+                popup_82cffc832ae10749766ae03ca2c4afe8.setContent(html_b3d81f567ef0820bd6c25166bd0eb118);
+            
+        
+
+        marker_f1f1b665b481d2e2febb79e158dedd6b.bindPopup(popup_82cffc832ae10749766ae03ca2c4afe8)
+        ;
+
+        
+    
+    
+            var marker_d5d0f1025c6d23f2104b2a5236416685 = L.marker(
+                [41.08, -73.55],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_a579e72186661cb761e719e080eb06c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6c316aa48e6eb663a43a738d83b3782 = $(`<div id="html_d6c316aa48e6eb663a43a738d83b3782" style="width: 100.0%; height: 100.0%;">City: Stamford<br>Loan Amount: $17,390,212.0<br>Jobs Reported: 4,956.0</div>`)[0];
+                popup_a579e72186661cb761e719e080eb06c5.setContent(html_d6c316aa48e6eb663a43a738d83b3782);
+            
+        
+
+        marker_d5d0f1025c6d23f2104b2a5236416685.bindPopup(popup_a579e72186661cb761e719e080eb06c5)
+        ;
+
+        
+    
+    
+            var marker_87492c794916c69ef02b3dad0d0df76f = L.marker(
+                [41.8, -72.26],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_97c1c8d737d96826f44473caa83c8ed7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a14ae8ba4e6d7962074207653b38c391 = $(`<div id="html_a14ae8ba4e6d7962074207653b38c391" style="width: 100.0%; height: 100.0%;">City: Storrs<br>Loan Amount: $328,079.0<br>Jobs Reported: 58.0</div>`)[0];
+                popup_97c1c8d737d96826f44473caa83c8ed7.setContent(html_a14ae8ba4e6d7962074207653b38c391);
+            
+        
+
+        marker_87492c794916c69ef02b3dad0d0df76f.bindPopup(popup_97c1c8d737d96826f44473caa83c8ed7)
+        ;
+
+        
+    
+    
+            var marker_b096161d55b43befdb559b73b4930bb1 = L.marker(
+                [41.2, -73.13],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_e1e0fef547b0bb8511cca74912692d70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1062eca92b931fd01015f70b8651046 = $(`<div id="html_e1062eca92b931fd01015f70b8651046" style="width: 100.0%; height: 100.0%;">City: Stratford<br>Loan Amount: $4,000,082.0<br>Jobs Reported: 723.0</div>`)[0];
+                popup_e1e0fef547b0bb8511cca74912692d70.setContent(html_e1062eca92b931fd01015f70b8651046);
+            
+        
+
+        marker_b096161d55b43befdb559b73b4930bb1.bindPopup(popup_e1e0fef547b0bb8511cca74912692d70)
+        ;
+
+        
+    
+    
+            var marker_c2a60b7fc556c48c634ccd75bdee1930 = L.marker(
+                [41.91, -72.77],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_13f9bbc51048e6afb43aea6dcb82bff1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_332aaadfa503308103fa01dd879618e1 = $(`<div id="html_332aaadfa503308103fa01dd879618e1" style="width: 100.0%; height: 100.0%;">City: Tariffville<br>Loan Amount: $290,526.0<br>Jobs Reported: 47.0</div>`)[0];
+                popup_13f9bbc51048e6afb43aea6dcb82bff1.setContent(html_332aaadfa503308103fa01dd879618e1);
+            
+        
+
+        marker_c2a60b7fc556c48c634ccd75bdee1930.bindPopup(popup_13f9bbc51048e6afb43aea6dcb82bff1)
+        ;
+
+        
+    
+    
+            var marker_1c0b29d0e736fa91ffdc46ef4a24cf7d = L.marker(
+                [41.68, -73.01],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_46c610edf78b6e92f6106b2a1d76a875 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dd63468e1b98bd3107a65af98df710d = $(`<div id="html_1dd63468e1b98bd3107a65af98df710d" style="width: 100.0%; height: 100.0%;">City: Terryville<br>Loan Amount: $449,800.0<br>Jobs Reported: 88.0</div>`)[0];
+                popup_46c610edf78b6e92f6106b2a1d76a875.setContent(html_1dd63468e1b98bd3107a65af98df710d);
+            
+        
+
+        marker_1c0b29d0e736fa91ffdc46ef4a24cf7d.bindPopup(popup_46c610edf78b6e92f6106b2a1d76a875)
+        ;
+
+        
+    
+    
+            var marker_35ab47164abcc7144017bd41deee19ca = L.marker(
+                [41.67, -73.08],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_c251bc3c95c22aec05653d21ba6201d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29364c6cb0733be35ea646dd4c613ac9 = $(`<div id="html_29364c6cb0733be35ea646dd4c613ac9" style="width: 100.0%; height: 100.0%;">City: Thomaston<br>Loan Amount: $931,490.0<br>Jobs Reported: 197.0</div>`)[0];
+                popup_c251bc3c95c22aec05653d21ba6201d9.setContent(html_29364c6cb0733be35ea646dd4c613ac9);
+            
+        
+
+        marker_35ab47164abcc7144017bd41deee19ca.bindPopup(popup_c251bc3c95c22aec05653d21ba6201d9)
+        ;
+
+        
+    
+    
+            var marker_0e364de565cd134f38bc2c6ee9ac1bbc = L.marker(
+                [41.83, -73.13],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_12ee72c99cab27cf6994de75b7c73ee2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d4812f69ded910134f30af8de145784 = $(`<div id="html_0d4812f69ded910134f30af8de145784" style="width: 100.0%; height: 100.0%;">City: Torrington<br>Loan Amount: $1,725,700.0<br>Jobs Reported: 288.0</div>`)[0];
+                popup_12ee72c99cab27cf6994de75b7c73ee2.setContent(html_0d4812f69ded910134f30af8de145784);
+            
+        
+
+        marker_0e364de565cd134f38bc2c6ee9ac1bbc.bindPopup(popup_12ee72c99cab27cf6994de75b7c73ee2)
+        ;
+
+        
+    
+    
+            var marker_1222129eab40a997228892a6fb0de166 = L.marker(
+                [41.26, -73.21],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_7a1159093e4412ac741f5c00035a10ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2a9495040409f33d859311b92f8951c = $(`<div id="html_f2a9495040409f33d859311b92f8951c" style="width: 100.0%; height: 100.0%;">City: Trumbull<br>Loan Amount: $3,230,223.0<br>Jobs Reported: 388.0</div>`)[0];
+                popup_7a1159093e4412ac741f5c00035a10ec.setContent(html_f2a9495040409f33d859311b92f8951c);
+            
+        
+
+        marker_1222129eab40a997228892a6fb0de166.bindPopup(popup_7a1159093e4412ac741f5c00035a10ec)
+        ;
+
+        
+    
+    
+            var marker_a6b4b4694319616a542db476274340f2 = L.marker(
+                [41.56, -73.04],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_81f21bcd48ce4bc059975e6905df7591 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49511e5707a636981eccd00a3750a798 = $(`<div id="html_49511e5707a636981eccd00a3750a798" style="width: 100.0%; height: 100.0%;">City: Waterbury<br>Loan Amount: $5,742,352.0<br>Jobs Reported: 1,441.0</div>`)[0];
+                popup_81f21bcd48ce4bc059975e6905df7591.setContent(html_49511e5707a636981eccd00a3750a798);
+            
+        
+
+        marker_a6b4b4694319616a542db476274340f2.bindPopup(popup_81f21bcd48ce4bc059975e6905df7591)
+        ;
+
+        
+    
+    
+            var marker_1a1bfdb48a8f1c477a3b25acde42e510 = L.marker(
+                [41.35, -72.13],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_21cb8a9ea4b55dec9b573db00053da68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e67b45aff2b5afab640de3a5d723b730 = $(`<div id="html_e67b45aff2b5afab640de3a5d723b730" style="width: 100.0%; height: 100.0%;">City: Waterford<br>Loan Amount: $2,363,057.0<br>Jobs Reported: 274.0</div>`)[0];
+                popup_21cb8a9ea4b55dec9b573db00053da68.setContent(html_e67b45aff2b5afab640de3a5d723b730);
+            
+        
+
+        marker_1a1bfdb48a8f1c477a3b25acde42e510.bindPopup(popup_21cb8a9ea4b55dec9b573db00053da68)
+        ;
+
+        
+    
+    
+            var marker_c6c264d5b42bb41584512469aac2f45a = L.marker(
+                [41.6, -73.12],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_b1496c2de2d398a72fd81ecbdfa3d79b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3da64dfc0f525480a6699c072fb880d0 = $(`<div id="html_3da64dfc0f525480a6699c072fb880d0" style="width: 100.0%; height: 100.0%;">City: Watertown<br>Loan Amount: $1,228,086.0<br>Jobs Reported: 233.0</div>`)[0];
+                popup_b1496c2de2d398a72fd81ecbdfa3d79b.setContent(html_3da64dfc0f525480a6699c072fb880d0);
+            
+        
+
+        marker_c6c264d5b42bb41584512469aac2f45a.bindPopup(popup_b1496c2de2d398a72fd81ecbdfa3d79b)
+        ;
+
+        
+    
+    
+            var marker_f2416f18224ad6524f4f4f48981bf6ab = L.marker(
+                [41.85, -72.83],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_a3863960e9daa9131184bf819e64c594 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24741014e79deb2256f2e4288bb853ed = $(`<div id="html_24741014e79deb2256f2e4288bb853ed" style="width: 100.0%; height: 100.0%;">City: Weatogue<br>Loan Amount: $216,943.0<br>Jobs Reported: 84.0</div>`)[0];
+                popup_a3863960e9daa9131184bf819e64c594.setContent(html_24741014e79deb2256f2e4288bb853ed);
+            
+        
+
+        marker_f2416f18224ad6524f4f4f48981bf6ab.bindPopup(popup_a3863960e9daa9131184bf819e64c594)
+        ;
+
+        
+    
+    
+            var marker_80c95ecd24e4956bed14ac7d307b47c9 = L.marker(
+                [41.77, -72.75],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_e4a03c4b478431ec863311f7b7876a01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb1b164b8e0e663facd2d0a8c2a013d8 = $(`<div id="html_eb1b164b8e0e663facd2d0a8c2a013d8" style="width: 100.0%; height: 100.0%;">City: West Hartford<br>Loan Amount: $6,043,002.0<br>Jobs Reported: 1,451.0</div>`)[0];
+                popup_e4a03c4b478431ec863311f7b7876a01.setContent(html_eb1b164b8e0e663facd2d0a8c2a013d8);
+            
+        
+
+        marker_80c95ecd24e4956bed14ac7d307b47c9.bindPopup(popup_e4a03c4b478431ec863311f7b7876a01)
+        ;
+
+        
+    
+    
+            var marker_9e3d2d8af9dfe7ba144fca37f1c478cf = L.marker(
+                [41.27, -72.97],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_5e4d108e39d1af90194b4d0d3775d4b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_162f3dbe9b977c38f4ba64a310ac365b = $(`<div id="html_162f3dbe9b977c38f4ba64a310ac365b" style="width: 100.0%; height: 100.0%;">City: West Haven<br>Loan Amount: $3,075,853.0<br>Jobs Reported: 737.0</div>`)[0];
+                popup_5e4d108e39d1af90194b4d0d3775d4b9.setContent(html_162f3dbe9b977c38f4ba64a310ac365b);
+            
+        
+
+        marker_9e3d2d8af9dfe7ba144fca37f1c478cf.bindPopup(popup_5e4d108e39d1af90194b4d0d3775d4b9)
+        ;
+
+        
+    
+    
+            var marker_eb67d9642883b11c7ff6e0c224eddf23 = L.marker(
+                [41.87, -72.84],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_fa40edbfe152f8e62fb7f21f95473c11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b34bc531f5892836fcdbc67157d44b9 = $(`<div id="html_8b34bc531f5892836fcdbc67157d44b9" style="width: 100.0%; height: 100.0%;">City: West Simsbury<br>Loan Amount: $278,576.0<br>Jobs Reported: 38.0</div>`)[0];
+                popup_fa40edbfe152f8e62fb7f21f95473c11.setContent(html_8b34bc531f5892836fcdbc67157d44b9);
+            
+        
+
+        marker_eb67d9642883b11c7ff6e0c224eddf23.bindPopup(popup_fa40edbfe152f8e62fb7f21f95473c11)
+        ;
+
+        
+    
+    
+            var marker_8f3cdb6b97f956ef8167349bf2cba20a = L.marker(
+                [41.12, -73.35],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_02d1b7a88beeb7a1c7c5d5c097ca0f7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_807489fd79f0e5410d7a3765fc93dada = $(`<div id="html_807489fd79f0e5410d7a3765fc93dada" style="width: 100.0%; height: 100.0%;">City: Westport<br>Loan Amount: $9,425,339.0<br>Jobs Reported: 1,609.0</div>`)[0];
+                popup_02d1b7a88beeb7a1c7c5d5c097ca0f7b.setContent(html_807489fd79f0e5410d7a3765fc93dada);
+            
+        
+
+        marker_8f3cdb6b97f956ef8167349bf2cba20a.bindPopup(popup_02d1b7a88beeb7a1c7c5d5c097ca0f7b)
+        ;
+
+        
+    
+    
+            var marker_3533b7356adc8cd4887ee13d78fdaf5f = L.marker(
+                [41.7, -72.67],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_573da4cefdd14370a0e1964d3b037f4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9557c52aa60d86d9661edf3029d6ca4d = $(`<div id="html_9557c52aa60d86d9661edf3029d6ca4d" style="width: 100.0%; height: 100.0%;">City: Wethersfield<br>Loan Amount: $2,896,590.0<br>Jobs Reported: 645.0</div>`)[0];
+                popup_573da4cefdd14370a0e1964d3b037f4f.setContent(html_9557c52aa60d86d9661edf3029d6ca4d);
+            
+        
+
+        marker_3533b7356adc8cd4887ee13d78fdaf5f.bindPopup(popup_573da4cefdd14370a0e1964d3b037f4f)
+        ;
+
+        
+    
+    
+            var marker_06e25b821c04e06306ff8465d196a79f = L.marker(
+                [41.72, -72.22],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_e5177113705f94eb3a335ede47d1a498 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_645072d0fa784cd10f4373fe85ccc3ff = $(`<div id="html_645072d0fa784cd10f4373fe85ccc3ff" style="width: 100.0%; height: 100.0%;">City: Willimantic<br>Loan Amount: $1,079,663.0<br>Jobs Reported: 260.0</div>`)[0];
+                popup_e5177113705f94eb3a335ede47d1a498.setContent(html_645072d0fa784cd10f4373fe85ccc3ff);
+            
+        
+
+        marker_06e25b821c04e06306ff8465d196a79f.bindPopup(popup_e5177113705f94eb3a335ede47d1a498)
+        ;
+
+        
+    
+    
+            var marker_b673d1459d60e22c1123489162278351 = L.marker(
+                [41.93, -72.65],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_65027b07bca41ba918e69b6407307b15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eceb37ae0bd8ec1deefba51199e6d1a = $(`<div id="html_3eceb37ae0bd8ec1deefba51199e6d1a" style="width: 100.0%; height: 100.0%;">City: Windsor Locks<br>Loan Amount: $1,868,430.0<br>Jobs Reported: 318.0</div>`)[0];
+                popup_65027b07bca41ba918e69b6407307b15.setContent(html_3eceb37ae0bd8ec1deefba51199e6d1a);
+            
+        
+
+        marker_b673d1459d60e22c1123489162278351.bindPopup(popup_65027b07bca41ba918e69b6407307b15)
+        ;
+
+        
+    
+    
+            var marker_49dc0142eba53c11ab7985bdc294c6b8 = L.marker(
+                [41.93, -73.07],
+                {}
+            ).addTo(marker_cluster_67d7768c6920647397cb2a401fdfe3ee);
+        
+    
+        var popup_8a212d61128822845f25f4d08ab53f2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9b769e8593d5ad154795334eb42e3e1 = $(`<div id="html_e9b769e8593d5ad154795334eb42e3e1" style="width: 100.0%; height: 100.0%;">City: Winsted<br>Loan Amount: $627,850.0<br>Jobs Reported: 30.0</div>`)[0];
+                popup_8a212d61128822845f25f4d08ab53f2d.setContent(html_e9b769e8593d5ad154795334eb42e3e1);
+            
+        
+
+        marker_49dc0142eba53c11ab7985bdc294c6b8.bindPopup(popup_8a212d61128822845f25f4d08ab53f2d)
+        ;
+
+        
+    
+</script>
+</html>
