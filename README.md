@@ -103,7 +103,15 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
   ![Non-Profit vs  For-Profit Analysis](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/6bd6be8d-22c2-4546-9e84-710662ac3ab7)
 
 
-9. **Time Trends**: Plots loan approval dates over time to identify trends or spikes, aiding in the understanding of demand fluctuations and program administration changes.
+9. **Loan Amount vs. Jobs Saved**: Creates a scatter plot to visualize the correlation between loan amounts and the number of jobs saved, providing insights into the relationship between loan size and employment impact.
+
+- Research Question: What is the relationship between the size of PPP loan amounts and the number of jobs claimed to be saved, and does this relationship provide insights into the employment impact of different loan sizes?
+
+  ![Loan Amount vs Jobs Saved](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/fae564ff-ca7c-44e3-9fa5-8733261a4ff2)
+  
+
+
+10. **Time Trends**: Plots loan approval dates over time to identify trends or spikes, aiding in the understanding of demand fluctuations and program administration changes.
 
 - Research Question: Are there any noticeable trends or spikes in the approval of PPP loans over time in Connecticut, and how do these trends correlate with changes in program administration and business demand?
 
@@ -122,11 +130,7 @@ Scatter Plots: Create scatter plots between loan amount and jobs saved to visual
   ![Outliers and data anomalies in the loan approval data](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/fb87d8c0-11dd-44eb-b2e1-64b1fc2485d2)
 
 
-10. **Loan Amount vs. Jobs Saved**: Creates a scatter plot to visualize the correlation between loan amounts and the number of jobs saved, providing insights into the relationship between loan size and employment impact.
 
-- Research Question: What is the relationship between the size of PPP loan amounts and the number of jobs claimed to be saved, and does this relationship provide insights into the employment impact of different loan sizes?
-
-  ![Loan Amount vs Jobs Saved](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/fae564ff-ca7c-44e3-9fa5-8733261a4ff2)
 
 
 ## Conclusion
