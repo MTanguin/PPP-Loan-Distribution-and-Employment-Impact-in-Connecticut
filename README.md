@@ -1,12 +1,6 @@
 ## PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut
 Connecticut's PPP Journey: Exploring Loan Distribution, Employment Impact, and Demographic Trends
-
-
-# PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut
-Connecticut's PPP Journey: Exploring Loan Distribution, Employment Impact, and Demographic Trends
-
-
-# PPP Loans to Connecticut Businesses Analysis
+#PPP Loans to Connecticut Businesses Analysis
 
 ## Overview
 
