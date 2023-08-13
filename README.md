@@ -102,7 +102,7 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 
   ![Non-Profit vs  For-Profit Analysis](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/6bd6be8d-22c2-4546-9e84-710662ac3ab7)
 
-  - The results of the analysis provide insights into the comparison between non-profit and for-profit organizations regarding their loan amounts and jobs saved through PPP loans. Here's what the results mean:
+  - The results of the analysis provide insights into the comparison between non-profit and for-profit organizations regarding their loan amounts and jobs saved through PPP loans. 
 
     Non-Profit Metrics:
 
