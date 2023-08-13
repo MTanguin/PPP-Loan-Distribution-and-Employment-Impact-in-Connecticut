@@ -151,7 +151,8 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 
   Program Changes: The sudden changes in the slope of the line might indicate alterations in the program's guidelines, eligibility criteria, or application process. Such changes could lead to shifts in the number of loan approvals
 
-  Outliers and data anomalies in the loan approval data
+  ##### Outliers and data anomalies in the loan approval data
+  
   Statistical methods and visualization techniques:
 
   Box Plot: Create box plots of the loan amount and number of jobs saved to identify potential outliers. Outliers are data points that significantly deviate from the rest of the data.
