@@ -13,10 +13,12 @@ The Paycheck Protection Program (PPP) loans have been instrumental in assisting 
 ## Data Sources
 
 1. [PPP Loans to Connecticut Businesses](https://catalog.data.gov/dataset/ppp-loans-to-connecticut-businesses)
-   Description: This dataset provides information about PPP loans granted to Connecticut businesses. It encompasses PPP loans granted to Connecticut businesses up to August 8, 2020. The dataset includes loans under $150,000 as well as loans of $150,000 and above.
 
-2. [TIGER/Line Shapefile 2019: County Subdivision](https://catalog.data.gov/dataset/tiger-line-shapefile-2019-state-connecticut-current-county-subdivision-state-based)
-   Description: The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's MAF/TIGER Database. This dataset includes county subdivisions, which are the primary divisions of counties and their equivalent entities for the reporting of Census Bureau data.
+    Description: This dataset provides information about PPP loans granted to Connecticut businesses. It encompasses PPP loans granted to Connecticut businesses up to August 8, 2020. The dataset includes loans under $150,000 as well as loans of $150,000 and above.
+
+3. [TIGER/Line Shapefile 2019: County Subdivision](https://catalog.data.gov/dataset/tiger-line-shapefile-2019-state-connecticut-current-county-subdivision-state-based)
+
+    Description: The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's MAF/TIGER Database. This dataset includes county subdivisions, which are the primary divisions of counties and their equivalent entities for the reporting of Census Bureau data.
 
 ## Usage
 
