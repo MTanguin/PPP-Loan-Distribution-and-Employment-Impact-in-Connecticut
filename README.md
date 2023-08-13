@@ -34,7 +34,9 @@ For larger datasets or more complex analyses, BigQuery can be employed:
 
 2. **SQL Queries**: SQL queries are utilized to perform various analyses, such as calculating total loan amounts, aggregating jobs saved, and segmenting data based on NAICS codes, gender, ethnicity, and more.
 
-3. **Geospatial Analysis**: BigQuery's geospatial capabilities enable the mapping of loan distribution across different regions in Connecticut.
+### Geospatial Analysis
+
+Geopandas's geospatial capabilities enable the mapping of loan distribution across different regions in Connecticut.
 
 ### Insights and Visualizations
 
