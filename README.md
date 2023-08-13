@@ -63,7 +63,7 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 
 4. **Distribution of Loan Amounts by Business Type**: Provides a visualization of loan amount distributions for different business types, aiding in the identification of average loan amounts within specific business categories.
 
-Research Question: How do loan amounts vary across different types of businesses in Connecticut, and what is the average loan amount for specific business categories?
+- Research Question: How do loan amounts vary across different types of businesses in Connecticut, and what is the average loan amount for specific business categories?
 
 5. **Gender and Ethnicity Analysis**: Explores trends in loan distribution, loan amounts, and jobs saved based on gender and ethnicity, shedding light on potential disparities.
 
