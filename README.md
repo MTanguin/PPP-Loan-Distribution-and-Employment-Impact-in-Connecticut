@@ -2,6 +2,9 @@
 Connecticut's PPP Journey: Exploring Loan Distribution, Employment Impact, and Demographic Trends
 #PPP Loans to Connecticut Businesses Analysis
 
+![Interactive map](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/7a66b134-c97a-4520-adb4-c72b99ef6dfe)
+
+
 ## Overview
 
 The Paycheck Protection Program (PPP) loans have been instrumental in assisting small businesses by providing resources to maintain their payroll, rehire employees, and cover operational expenses. This project focuses on analyzing the dataset of PPP loans provided to businesses in Connecticut. The dataset includes information on loan amounts, jobs saved, National Industry Classification (NAICS) codes, and more.
