@@ -138,6 +138,12 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 
   ![Time Trends Loan Approvals Over Time](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/5bf38f89-b6e7-41d5-957f-9eb1ee452d21)
 
+  Spikes: There was a sharp increase in loan approvals in April 28, 2020 with 6400 appoved loans and another one in May 3, 2020 with 4696 counts of approved loans. These spikes could indicate periods of high demand or changes in program administration that led to increased loan processing.
+
+  High Demand Periods: Spikes in the line plot can suggest periods of high demand for PPP loans. These periods could correspond to when businesses urgently sought financial assistance due to economic challenges or uncertainty.
+
+  Program Changes: The sudden changes in the slope of the line might indicate alterations in the program's guidelines, eligibility criteria, or application process. Such changes could lead to shifts in the number of loan approvals
+
   Outliers and data anomalies in the loan approval data
   Statistical methods and visualization techniques:
 
