@@ -109,6 +109,16 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 
   ![Time Trends Loan Approvals Over Time](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/5bf38f89-b6e7-41d5-957f-9eb1ee452d21)
 
+Outliers and data anomalies in the loan approval data
+Statistical methods and visualization techniques:
+
+Box Plot: Create box plots of the loan amount and number of jobs saved to identify potential outliers. Outliers are data points that significantly deviate from the rest of the data.
+
+Z-Score: Calculate the Z-score for the loan amount and jobs saved columns. Z-score measures how many standard deviations a data point is away from the mean. A high Z-score indicates an outlier.
+
+IQR Method: Calculate the Interquartile Range (IQR) and identify data points that fall outside the 1.5 * IQR range. These are potential outliers.
+
+Scatter Plots: Create scatter plots between loan amount and jobs saved to visually inspect any unusual patterns or outliers.
   ![Outliers and data anomalies in the loan approval data](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/fb87d8c0-11dd-44eb-b2e1-64b1fc2485d2)
 
 
