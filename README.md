@@ -10,9 +10,18 @@ Connecticut's PPP Journey: Exploring Loan Distribution, Employment Impact, and D
 
 The Paycheck Protection Program (PPP) loans have been instrumental in assisting small businesses by providing resources to maintain their payroll, rehire employees, and cover operational expenses. This project focuses on analyzing the dataset of PPP loans provided to businesses in Connecticut. The dataset includes information on loan amounts, jobs saved, National Industry Classification (NAICS) codes, and more.
 
-## Data Source
+## Data Sources
 
-The dataset used for this analysis is sourced from [Data.gov](https://catalog.data.gov/dataset/ppp-loans-to-connecticut-businesses). It encompasses PPP loans granted to Connecticut businesses up to August 8, 2020. The dataset includes loans under $150,000 as well as loans of $150,000 and above.
+1. [PPP Loans to Connecticut Businesses](https://catalog.data.gov/dataset/ppp-loans-to-connecticut-businesses)
+   Description: This dataset provides information about PPP loans granted to Connecticut businesses. It encompasses PPP loans granted to Connecticut businesses up to August 8, 2020. The dataset includes loans under $150,000 as well as loans of $150,000 and above.
+
+2. [TIGER/Line Shapefile 2019: County Subdivision](https://catalog.data.gov/dataset/tiger-line-shapefile-2019-state-connecticut-current-county-subdivision-state-based)
+   Description: The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's MAF/TIGER Database. This dataset includes county subdivisions, which are the primary divisions of counties and their equivalent entities for the reporting of Census Bureau data.
+
+## Usage
+
+To access and utilize the data, you can follow the links provided above. For more detailed information about each dataset, refer to the respective links.
+ It encompasses PPP loans granted to Connecticut businesses up to August 8, 2020. The dataset includes loans under $150,000 as well as loans of $150,000 and above.
 
 ## Methodology
 
