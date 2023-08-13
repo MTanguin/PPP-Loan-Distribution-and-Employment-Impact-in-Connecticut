@@ -2,9 +2,8 @@
 Connecticut's PPP Journey: Exploring Loan Distribution, Employment Impact, and Demographic Trends
 #PPP Loans to Connecticut Businesses Analysis
 
-![Interactive map](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/7a66b134-c97a-4520-adb4-c72b99ef6dfe)
+https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/7a66b134-c97a-4520-adb4-c72b99ef6dfe
 
-file:///C:/Users/mtang/OneDrive/Desktop/Project_Portfolio/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/interactive_loan_distribution_map.html
 
 ## Overview
 
