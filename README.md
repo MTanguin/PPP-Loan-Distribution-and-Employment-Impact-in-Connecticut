@@ -185,5 +185,7 @@ These analyses aim to uncover valuable insights into the distribution of PPP loa
 
 It's important to carefully investigate these potential outliers to determine their validity and whether they should be included in your analysis. Domain expertise, industry knowledge, and additional data sources could help provide context and insight into the reasons behind these unusual loan amounts.
 
+## Disclaimer
 
+The data provided in this repository is sourced from external websites and databases. The data is intended for educational and learning purposes only. While the creator has strived to ensure the accuracy and reliability of the data, its completeness or suitability for any specific purpose cannot be guaranteed. Users of this data are advised to independently verify its accuracy and exercise caution when using it for critical applications. The creators of this repository are not liable for any damages or losses that may arise from the use of this data.
 
