@@ -138,20 +138,35 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 
   ![Time Trends Loan Approvals Over Time](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/5bf38f89-b6e7-41d5-957f-9eb1ee452d21)
 
-Outliers and data anomalies in the loan approval data
-Statistical methods and visualization techniques:
+  Outliers and data anomalies in the loan approval data
+  Statistical methods and visualization techniques:
 
-Box Plot: Create box plots of the loan amount and number of jobs saved to identify potential outliers. Outliers are data points that significantly deviate from the rest of the data.
+  Box Plot: Create box plots of the loan amount and number of jobs saved to identify potential outliers. Outliers are data points that significantly deviate from the rest of the data.
 
-Z-Score: Calculate the Z-score for the loan amount and jobs saved columns. Z-score measures how many standard deviations a data point is away from the mean. A high Z-score indicates an outlier.
+  Z-Score: Calculate the Z-score for the loan amount and jobs saved columns. Z-score measures how many standard deviations a data point is away from the mean. A high Z-score indicates   an outlier.
 
-IQR Method: Calculate the Interquartile Range (IQR) and identify data points that fall outside the 1.5 * IQR range. These are potential outliers.
+  IQR Method: Calculate the Interquartile Range (IQR) and identify data points that fall outside the 1.5 * IQR range. These are potential outliers.
 
-Scatter Plots: Create scatter plots between loan amount and jobs saved to visually inspect any unusual patterns or outliers.
+  Scatter Plots: Create scatter plots between loan amount and jobs saved to visually inspect any unusual patterns or outliers.
+  
   ![Outliers and data anomalies in the loan approval data](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/fb87d8c0-11dd-44eb-b2e1-64b1fc2485d2)
 
+    The potential loan amount outliers that have been identified through the Z-score and IQR methods have significantly high Z-scores, suggesting that they deviate from the mean loan amount to a considerable extent. These outliers could be indicative of unusual loan amounts compared to the majority of the dataset.
 
+There are a few possible explanations for these potential loan amount outliers:
 
+Large Businesses or Special Cases: Some of these large loan amounts might belong to bigger businesses or organizations with specific financial needs. They could be receiving larger loans due to their size, industry, or specific circumstances.
+
+Specific Industries: Certain industries might require substantial financial assistance due to their capital-intensive nature or the challenges they faced during the economic downturn. These industries might have requested larger loan amounts to sustain their operations.
+
+Data Anomalies: In some cases, data entry errors or anomalies could lead to inflated loan amounts. It's worth investigating if these outliers are due to any mistakes in data recording.
+
+Government Policies or Support: The PPP program might have had different rules or support for certain sectors, leading to larger loan amounts for eligible businesses.
+
+Geographical Considerations: Businesses located in areas with high living costs or affected more severely by the pandemic might require larger loans to cover their operational expenses.
+
+It's important to carefully investigate these potential outliers to determine their validity and whether they should be included in your analysis. Domain expertise, industry knowledge, and additional data sources could help provide context and insight into the reasons behind these unusual loan amounts.
+  
 
 
 ## Conclusion
