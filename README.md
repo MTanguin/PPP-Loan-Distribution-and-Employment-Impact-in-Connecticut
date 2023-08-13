@@ -153,26 +153,24 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 
     The potential loan amount outliers that have been identified through the Z-score and IQR methods have significantly high Z-scores, suggesting that they deviate from the mean loan amount to a considerable extent. These outliers could be indicative of unusual loan amounts compared to the majority of the dataset.
 
-There are a few possible explanations for these potential loan amount outliers:
+    There are a few possible explanations for these potential loan amount outliers:
 
-Large Businesses or Special Cases: Some of these large loan amounts might belong to bigger businesses or organizations with specific financial needs. They could be receiving larger loans due to their size, industry, or specific circumstances.
+  - Large Businesses or Special Cases: Some of these large loan amounts might belong to bigger businesses or organizations with specific financial needs. They could be receiving larger loans due to their size, industry, or specific circumstances.
 
-Specific Industries: Certain industries might require substantial financial assistance due to their capital-intensive nature or the challenges they faced during the economic downturn. These industries might have requested larger loan amounts to sustain their operations.
+  - Specific Industries: Certain industries might require substantial financial assistance due to their capital-intensive nature or the challenges they faced during the economic downturn. These industries might have requested larger loan amounts to sustain their operations.
 
-Data Anomalies: In some cases, data entry errors or anomalies could lead to inflated loan amounts. It's worth investigating if these outliers are due to any mistakes in data recording.
+  - Data Anomalies: In some cases, data entry errors or anomalies could lead to inflated loan amounts. It's worth investigating if these outliers are due to any mistakes in data recording.
 
-Government Policies or Support: The PPP program might have had different rules or support for certain sectors, leading to larger loan amounts for eligible businesses.
+  - Government Policies or Support: The PPP program might have had different rules or support for certain sectors, leading to larger loan amounts for eligible businesses.
 
-Geographical Considerations: Businesses located in areas with high living costs or affected more severely by the pandemic might require larger loans to cover their operational expenses.
-
-It's important to carefully investigate these potential outliers to determine their validity and whether they should be included in your analysis. Domain expertise, industry knowledge, and additional data sources could help provide context and insight into the reasons behind these unusual loan amounts.
-  
+  - Geographical Considerations: Businesses located in areas with high living costs or affected more severely by the pandemic might require larger loans to cover their operational expenses.
 
 
 ## Conclusion
 
 These analyses aim to uncover valuable insights into the distribution of PPP loans, industries that benefitted, demographic impact, and more. It is essential to ensure that all analyses are conducted with accuracy, impartiality, and alignment with project goals........
 
+It's important to carefully investigate these potential outliers to determine their validity and whether they should be included in your analysis. Domain expertise, industry knowledge, and additional data sources could help provide context and insight into the reasons behind these unusual loan amounts.
 
 
-.......
+
