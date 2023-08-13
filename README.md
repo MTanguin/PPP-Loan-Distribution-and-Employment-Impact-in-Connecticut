@@ -20,10 +20,6 @@ The Paycheck Protection Program (PPP) loans have been instrumental in assisting 
 
     Description: The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's MAF/TIGER Database. This dataset includes county subdivisions, which are the primary divisions of counties and their equivalent entities for the reporting of Census Bureau data.
 
-## Usage
-
-To access and utilize the data, you can follow the links provided above. For more detailed information about each dataset, refer to the respective links.
- It encompasses PPP loans granted to Connecticut businesses up to August 8, 2020. The dataset includes loans under $150,000 as well as loans of $150,000 and above.
 
 ## Methodology
 
