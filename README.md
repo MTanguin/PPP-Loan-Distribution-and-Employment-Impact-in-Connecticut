@@ -102,6 +102,20 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 
   ![Non-Profit vs  For-Profit Analysis](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/6bd6be8d-22c2-4546-9e84-710662ac3ab7)
 
+The results of the analysis provide insights into the comparison between non-profit and for-profit organizations regarding their loan amounts and jobs saved through PPP loans. Here's what the results mean:
+
+Non-Profit Metrics:
+
+Average Loan Amount: $42,704 Average Jobs Saved: 25 For-Profit Metrics:
+
+Average Loan Amount: $33,328 Average Jobs Saved: 9.6 These metrics represent the averages for loan amounts and jobs saved for both non-profit and for-profit organizations.
+
+Loan Amount T-Test: T-Statistic: 11.91 P-Value: ~0.00 (very close to 0) The t-test for loan amounts indicates a statistically significant difference between non-profit and for-profit organizations in terms of the loan amounts they received. The low p-value suggests that the difference in average loan amounts between these two groups is unlikely to have occurred by chance.
+
+Jobs Saved T-Test: T-Statistic: 25.75 P-Value: ~0.00 (very close to 0) The t-test for jobs saved shows a highly significant difference between non-profit and for-profit organizations in terms of the number of jobs they reported saving through PPP loans. The very low p-value indicates that the difference in average jobs saved between the two groups is highly unlikely to be due to random variation.
+
+In summary, the analysis suggests that there are significant differences between non-profit and for-profit organizations in terms of both loan amounts received and jobs saved through PPP loans. Non-profit organizations, on average, received higher loan amounts and reported saving more jobs compared to for-profit organizations. The low p-values from the t-tests further support these findings
+
 
 9. **Loan Amount vs. Jobs Saved**: Creates a scatter plot to visualize the correlation between loan amounts and the number of jobs saved, providing insights into the relationship between loan size and employment impact.
 
@@ -109,7 +123,14 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 
   ![Loan Amount vs Jobs Saved](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/fae564ff-ca7c-44e3-9fa5-8733261a4ff2)
   
+Correlation Coefficient: 0.40662868403941743
+There is a positive correlation between loan size and impact on employment
 
+The correlation coefficient value of 0.406 suggests a positive correlation between loan size (Loan Amount) and the impact on employment (Jobs Saved). When the correlation coefficient is positive, it indicates that as one variable increases, the other variable tends to increase as well.
+
+In this context, a correlation coefficient of 0.406 indicates that there is a moderate positive relationship between the loan size and the impact on employment. This means that as the loan size increases, there is a tendency for the number of jobs saved to also increase. However, it's important to note that correlation does not imply causation, and other factors could be influencing this relationship.
+
+In summary, the positive correlation between loan size and impact on employment suggests that organizations that received larger PPP loans tend to report higher numbers of jobs saved.
 
 10. **Time Trends**: Plots loan approval dates over time to identify trends or spikes, aiding in the understanding of demand fluctuations and program administration changes.
 
