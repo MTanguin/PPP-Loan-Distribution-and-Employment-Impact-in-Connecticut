@@ -45,6 +45,8 @@ For larger datasets or more complex analyses, BigQuery can be employed:
 
 Geopandas's geospatial capabilities enable the mapping of loan distribution across different regions in Connecticut.
 
+Enables interactive loan distribution map using Folium, a Python library for creating interactive maps.
+
 ### Insights and Visualizations
 
 The analyses lead to the creation of insightful visualizations, aiding in the interpretation of findings:
