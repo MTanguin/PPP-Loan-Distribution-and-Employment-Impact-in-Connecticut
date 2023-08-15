@@ -105,7 +105,8 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 
 - Research Question: In which cities and regions of Connecticut were PPP loans most concentrated, and what factors might have contributed to the varying loan activity across different geographic areas?
 
-  ![Distribution of PPP Loans by City in Connecticut](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/6daa407b-5f79-4931-a3a4-2d4b8b2783bc)
+  ![Distribution of PPP Loans by City in Connecticut](![Distribution of PPP Loans by City in Connecticut](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/56acd4f2-edad-4ee7-9549-332973dd117c)
+
 
 
 8. **Non-Profit vs. For-Profit Analysis**: Compares the impact of PPP loans on non-profit and for-profit organizations, examining loan amounts, jobs saved, and other metrics.
