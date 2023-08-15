@@ -88,7 +88,7 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 
 - Research Question: Are there any disparities in the distribution of PPP loans, loan amounts, and jobs saved based on gender and ethnicity among Connecticut businesses?
 
-  ![Gender Analysis Loan Amounts vs  Jobs Saved](![Gender Analysis Loan Amounts vs  Jobs Saved](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/458a7663-81b1-402e-92f4-7fca7d5e6688)
+(![Gender Analysis Loan Amounts vs  Jobs Saved](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/458a7663-81b1-402e-92f4-7fca7d5e6688)
 
 
 
@@ -96,7 +96,7 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 
 - Research Question: Which lenders played a significant role in distributing PPP loans to Connecticut businesses, and how did their loan disbursements contribute to supporting businesses during the pandemic?
 
-  ![Top 20 LendersTotal Loan Amounts](![Top 20 LendersTotal Loan Amounts](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/6e51fc07-9e75-4072-8626-7af7c39862f8)
+![Top 20 LendersTotal Loan Amounts](![Top 20 LendersTotal Loan Amounts](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/6e51fc07-9e75-4072-8626-7af7c39862f8)
 
 
 
