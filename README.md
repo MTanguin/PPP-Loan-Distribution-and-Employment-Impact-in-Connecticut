@@ -4,7 +4,7 @@ Connecticut's PPP Journey: Exploring Loan Distribution, Employment Impact, and D
 
 ![Interactive map](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/823a7176-c6ae-4364-9e2d-1d2936bc207e)
 
-[Interactive Map Loan Distribution](https://mtanguin.github.io/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/)
+[Interactive Map Loan Distribution](https://mtanguin.github.io/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut//interactive_loan_distribution_map.html)
 
 ## Overview
 
