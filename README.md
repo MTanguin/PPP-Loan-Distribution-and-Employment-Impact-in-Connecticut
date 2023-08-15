@@ -84,11 +84,11 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 ![Distribution of Loan Amounts by Business Type](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/6769d120-8b4b-49cb-844e-74fe97e8ca81)
 
 
-5. **Gender and Ethnicity Analysis**: Explores trends in loan distribution, loan amounts, and jobs saved based on gender and ethnicity, shedding light on potential disparities.
+5. **Gender Analysis**: Explores trends in loan distribution, loan amounts, and jobs saved based on gender and ethnicity, shedding light on potential disparities.
 
 - Research Question: Are there any disparities in the distribution of PPP loans, loan amounts, and jobs saved based on gender and ethnicity among Connecticut businesses?
 
-  ![Gender and Ethnicity Analysis Loan Amounts vs  Jobs Saved](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/9962f005-25c5-408a-b485-cf9960347be4)
+  ![Gender Analysis Loan Amounts vs  Jobs Saved](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/9962f005-25c5-408a-b485-cf9960347be4)
 
 
 6. **Lender Analysis**: Investigates the lenders involved in PPP loans, calculating the total loan amount distributed by each lender and highlighting their role in supporting businesses during the pandemic.
