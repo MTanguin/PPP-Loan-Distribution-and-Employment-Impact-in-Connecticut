@@ -84,25 +84,29 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 ![Distribution of Loan Amounts by Business Type](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/6769d120-8b4b-49cb-844e-74fe97e8ca81)
 
 
-5. **Gender and Ethnicity Analysis**: Explores trends in loan distribution, loan amounts, and jobs saved based on gender and ethnicity, shedding light on potential disparities.
+5. **Gender Analysis**: Explores trends in loan distribution, loan amounts, and jobs saved based on gender and ethnicity, shedding light on potential disparities.
 
 - Research Question: Are there any disparities in the distribution of PPP loans, loan amounts, and jobs saved based on gender and ethnicity among Connecticut businesses?
 
-  ![Gender and Ethnicity Analysis Loan Amounts vs  Jobs Saved](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/9962f005-25c5-408a-b485-cf9960347be4)
+(![Gender Analysis Loan Amounts vs  Jobs Saved](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/458a7663-81b1-402e-92f4-7fca7d5e6688)
+
 
 
 6. **Lender Analysis**: Investigates the lenders involved in PPP loans, calculating the total loan amount distributed by each lender and highlighting their role in supporting businesses during the pandemic.
 
 - Research Question: Which lenders played a significant role in distributing PPP loans to Connecticut businesses, and how did their loan disbursements contribute to supporting businesses during the pandemic?
 
-  ![Top 10 LendersTotal Loan Amounts](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/dffadf12-2593-42c2-9d4d-70eff9e147e2)
+![Top 20 LendersTotal Loan Amounts](![Top 20 LendersTotal Loan Amounts](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/6e51fc07-9e75-4072-8626-7af7c39862f8)
+
+
 
 
 7. **Geographic Analysis**: Visualizes the geographic distribution of loans across Connecticut's cities and regions, identifying areas with higher loan activity and possible contributing factors.
 
 - Research Question: In which cities and regions of Connecticut were PPP loans most concentrated, and what factors might have contributed to the varying loan activity across different geographic areas?
 
-  ![Distribution of PPP Loans by City in Connecticut](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/6daa407b-5f79-4931-a3a4-2d4b8b2783bc)
+  ![Distribution of PPP Loans by City in Connecticut](![Distribution of PPP Loans by City in Connecticut](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/56acd4f2-edad-4ee7-9549-332973dd117c)
+
 
 
 8. **Non-Profit vs. For-Profit Analysis**: Compares the impact of PPP loans on non-profit and for-profit organizations, examining loan amounts, jobs saved, and other metrics.
