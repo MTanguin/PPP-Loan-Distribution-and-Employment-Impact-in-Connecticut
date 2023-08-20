@@ -113,7 +113,7 @@ The analyses lead to the creation of insightful visualizations, aiding in the in
 
 - Research Question: How does the impact of PPP loans differ between non-profit and for-profit organizations in Connecticut, considering loan amounts, jobs saved, and other relevant metrics?
 
-  ![Non-Profit vs  For-Profit Analysis](![Non-Profit vs  For-Profit Analysis](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/90bc1eeb-d132-49f8-96b8-35c9d7476764)
+(![Non-Profit vs  For-Profit Analysis](https://github.com/MTanguin/PPP-Loan-Distribution-and-Employment-Impact-in-Connecticut/assets/114210481/90bc1eeb-d132-49f8-96b8-35c9d7476764)
 
 
   - The results of the analysis provide insights into the comparison between non-profit and for-profit organizations regarding their loan amounts and jobs saved through PPP loans. 
