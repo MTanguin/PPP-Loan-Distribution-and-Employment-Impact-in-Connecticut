@@ -195,5 +195,5 @@ It's important to carefully investigate these potential outliers to determine th
 
 ## Disclaimer
 
-The data provided in this repository is sourced from external websites and databases. The data is intended for educational and learning purposes only. While the creator has strived to ensure the accuracy and reliability of the data, its completeness or suitability for any specific purpose cannot be guaranteed. Users of this data are advised to independently verify its accuracy and exercise caution when using it for critical applications. The creators of this repository are not liable for any damages or losses that may arise from the use of this data.
+The data provided in this repository is sourced from external websites and databases. The data is intended for educational and learning purposes only. While the creator has strived to ensure the accuracy and reliability of the data, its completeness or suitability for any specific purpose cannot be guaranteed. Users of this data are advised to independently verify its accuracy and exercise caution when using it for critical applications. The creator of this repository are not liable for any damages or losses that may arise from the use of this data.
 
